@@ -1,0 +1,7 @@
+Image of establishment on top left
+Menu bar on right of image
+Logo below menu bar
+Intro blurb below, next to image of staff/building/whatever
+slideshow of images below intro of items on menu, events, etc
+calendar and date selection beneath slideshow to make reservations, next to map showing location
+navigation menu on bottom
