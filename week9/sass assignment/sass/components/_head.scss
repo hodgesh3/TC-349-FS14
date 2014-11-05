@@ -1,0 +1,20 @@
+.masthead{
+  background-color: $purp-two;
+  height:400px;
+  padding-top:50px;
+}
+
+.avatar{
+  background:$purp-one;
+  @include border-radius(50%);
+  height:200px;
+  width:auto;
+  
+}
+
+.headline{
+  text-align:center;
+  padding-top:50px;
+  font-family:helvetica;
+  text-shadow: 0px 0px 4px rgba(255,255,255, 0.8)
+}

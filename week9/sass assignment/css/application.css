@@ -1,0 +1,136 @@
+/* line 1, ../sass/components/_content.scss */
+body {
+  width: 960px;
+  background-color: purple;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 10, ../sass/components/_content.scss */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1, ../sass/components/_head.scss */
+.masthead {
+  background-color: #846f8d;
+  height: 400px;
+  padding-top: 50px;
+}
+
+/* line 7, ../sass/components/_head.scss */
+.avatar {
+  background: #482955;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  height: 200px;
+  width: auto;
+}
+
+/* line 15, ../sass/components/_head.scss */
+.headline {
+  text-align: center;
+  padding-top: 50px;
+  font-family: helvetica;
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8);
+}
+
+/* line 2, ../sass/components/_grid.scss */
+.grid ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 8, ../sass/components/_grid.scss */
+.grid li {
+  float: left;
+  background-image: url(placeholder.png);
+}
+/* line 12, ../sass/components/_grid.scss */
+.grid li img {
+  width: 240px;
+  height: 240px;
+  background: #482955;
+}
+/* line 17, ../sass/components/_grid.scss */
+.grid li img:hover {
+  -webkit-transform: scale(1.5, 1.5);
+  -moz-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  -o-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+/* line 22, ../sass/components/_grid.scss */
+.grid li:hover {
+  -webkit-box-shadow: purple 2px 2px 10px;
+  -moz-box-shadow: purple 2px 2px 10px;
+  box-shadow: purple 2px 2px 10px;
+}
+/* line 29, ../sass/components/_grid.scss */
+.grid li:nth-child(1) img {
+  background: #846f8d;
+}
+/* line 34, ../sass/components/_grid.scss */
+.grid li:nth-child(3) img {
+  background: #846f8d;
+}
+/* line 39, ../sass/components/_grid.scss */
+.grid li:nth-child(6) img {
+  background: #846f8d;
+}
+/* line 44, ../sass/components/_grid.scss */
+.grid li:nth-child(8) img {
+  background: #846f8d;
+}
+
+/* line 1, ../sass/components/_hero.scss */
+.hero-unit {
+  clear: both;
+  background: #482955;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+/* line 9, ../sass/components/_hero.scss */
+.hero-pic {
+  background: #846f8d;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 1, ../sass/components/_about.scss */
+.about-area {
+  background: #846f8d;
+  padding-top: 70px;
+}
+
+/* line 6, ../sass/components/_about.scss */
+.about-rowone {
+  display: inline-table;
+  width: 450px;
+  margin-left: 20px;
+}
+
+/* line 12, ../sass/components/_about.scss */
+img.about-rowone {
+  width: 200px;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+/* line 18, ../sass/components/_about.scss */
+.about-rowtwo {
+  display: inline-table;
+  margin-left: 20px;
+  margin-right: 10;
+  margin-bottom: 100px;
+}
