@@ -1,0 +1,29 @@
+.masthead{
+  background-color: $purp-two;
+  height:400px;
+  padding-top:50px;
+}
+
+.avatar{
+  background:$purp-one;
+  @include border-radius(50%);
+  height:200px;
+  width:auto;
+  
+}
+
+.headline{
+  margin-left:170px;
+  text-align:center;
+  padding-top:50px;
+  font-family:helvetica;
+  text-shadow: 0px 0px 4px rgba(255,255,255, 1);
+  display:inline-block;
+  color:$back-color;
+}
+.subline{
+  text-align:center;
+  display:inline-block;
+  color:$purp-one;
+  text-shadow: 0px 0px 4px rgba(0,0,0, 0.8);
+}

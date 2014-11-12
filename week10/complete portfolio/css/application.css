@@ -1,0 +1,148 @@
+/* line 1, ../sass/components/_content.scss */
+body {
+  font-family: arial;
+  width: 960px;
+  background-color: #336699;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 11, ../sass/components/_content.scss */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1, ../sass/components/_head.scss */
+.masthead {
+  background-color: silver;
+  height: 400px;
+  padding-top: 50px;
+}
+
+/* line 7, ../sass/components/_head.scss */
+.avatar {
+  background: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  height: 200px;
+  width: auto;
+}
+
+/* line 15, ../sass/components/_head.scss */
+.headline {
+  margin-left: 170px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: helvetica;
+  text-shadow: 0px 0px 4px white;
+  display: inline-block;
+  color: #336699;
+}
+
+/* line 24, ../sass/components/_head.scss */
+.subline {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* line 2, ../sass/components/_grid.scss */
+.grid ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 8, ../sass/components/_grid.scss */
+.grid li {
+  float: left;
+  background-image: url(placeholder.png);
+  width: 25%;
+  height: auto;
+}
+/* line 14, ../sass/components/_grid.scss */
+.grid li img {
+  background: white;
+  width: 100%;
+  height: auto;
+}
+/* line 20, ../sass/components/_grid.scss */
+.grid li img:hover {
+  -webkit-transform: scale(1.5, 1.5);
+  -moz-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  -o-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+  -webkit-box-shadow: black 2px 2px 15px;
+  -moz-box-shadow: black 2px 2px 15px;
+  box-shadow: black 2px 2px 15px;
+}
+/* line 28, ../sass/components/_grid.scss */
+.grid li:nth-child(1) img {
+  background: silver;
+}
+/* line 33, ../sass/components/_grid.scss */
+.grid li:nth-child(3) img {
+  background: silver;
+}
+/* line 38, ../sass/components/_grid.scss */
+.grid li:nth-child(6) img {
+  background: silver;
+}
+/* line 43, ../sass/components/_grid.scss */
+.grid li:nth-child(8) img {
+  background: silver;
+}
+
+/* line 1, ../sass/components/_hero.scss */
+.hero-unit {
+  clear: both;
+  background: white;
+  margin-top: 10px;
+}
+
+/* line 7, ../sass/components/_hero.scss */
+.hero-pic {
+  background: silver;
+  height: auto;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+/* line 1, ../sass/components/_about.scss */
+.about-area {
+  background: silver;
+  padding-top: 70px;
+}
+
+/* line 6, ../sass/components/_about.scss */
+.about-rowone {
+  width: 450px;
+  margin-bottom: 50px;
+}
+
+/* line 12, ../sass/components/_about.scss */
+img.about-rowone {
+  width: 300px;
+  margin-left: 50px;
+}
+
+/* line 18, ../sass/components/_about.scss */
+.about-rowtwo .title {
+  color: #336699;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* line 23, ../sass/components/_about.scss */
+.about-rowtwo p {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}

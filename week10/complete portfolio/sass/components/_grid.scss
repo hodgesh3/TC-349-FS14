@@ -1,0 +1,47 @@
+.grid{
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li{
+    float: left;
+    background-image: url(placeholder.png);
+    width:25%;
+    height:auto;
+    
+    img{
+      background:$purp-one;
+      width:100%;
+      height:auto;
+      
+      
+      &:hover{
+        @include transform(scale(1.5,1.5));
+        @include box-shadow(black 2px 2px 15px);
+      }
+    }
+  }
+  
+  li:nth-child(1) {
+      img{
+        background: $purp-two;
+      }
+    }
+  li:nth-child(3) {
+      img{
+        background: $purp-two;
+      }
+    }
+  li:nth-child(6) {
+      img{
+        background: $purp-two;
+      }
+    }
+  li:nth-child(8) {
+      img{
+        background: $purp-two;
+      }
+    }
+}

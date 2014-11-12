@@ -1,0 +1,28 @@
+.about-area{
+  background: $purp-two;
+  padding-top:70px;
+}
+
+.about-rowone{
+  
+  width:450px;
+  margin-bottom:50px;
+}
+
+img.about-rowone{
+  width:300px;
+  margin-left:50px;
+}
+
+.about-rowtwo{
+  .title{
+    color:$back-color;
+    margin-left:50px;
+    margin-right:50px;
+   }
+  p{
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:50px;
+  }
+}
