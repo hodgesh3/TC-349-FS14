@@ -1,4 +1,344 @@
-/* line 1, ../sass/components/_content.scss */
+/* line 55, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 63, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 74, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 84, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 97, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+html {
+  font-size: 100%;
+  background: white;
+  color: black;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 113, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 119, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 132, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+a {
+  background: transparent;
+}
+/* line 139, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 146, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 159, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 164, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 169, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 174, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 179, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 184, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+/* line 192, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 199, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 204, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 211, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 217, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 225, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/* line 236, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 246, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 254, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 263, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 271, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 279, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 287, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 294, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 298, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 311, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 317, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 326, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 335, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+nav ul,
+nav ol {
+  list-style-image: none;
+}
+
+/* line 350, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 359, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 369, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 379, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 386, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 397, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/* line 414, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 426, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 436, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 451, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+/* line 462, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/* line 470, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 479, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 490, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 498, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 507, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/* line 517, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/* line 1, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_content.scss */
+html {
+  background: #336699;
+}
+
+/* line 4, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_content.scss */
 body {
   font-family: arial;
   width: 960px;
@@ -9,21 +349,21 @@ body {
   margin-right: auto;
 }
 
-/* line 11, ../sass/components/_content.scss */
+/* line 14, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_content.scss */
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 1, ../sass/components/_head.scss */
+/* line 1, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_head.scss */
 .masthead {
   background-color: silver;
   height: 400px;
   padding-top: 50px;
 }
 
-/* line 7, ../sass/components/_head.scss */
+/* line 7, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_head.scss */
 .avatar {
   background: white;
   -webkit-border-radius: 50%;
@@ -35,7 +375,7 @@ img {
   width: auto;
 }
 
-/* line 15, ../sass/components/_head.scss */
+/* line 15, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_head.scss */
 .headline {
   margin-left: 170px;
   text-align: center;
@@ -46,7 +386,7 @@ img {
   color: #336699;
 }
 
-/* line 24, ../sass/components/_head.scss */
+/* line 24, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_head.scss */
 .subline {
   text-align: center;
   display: inline-block;
@@ -54,26 +394,26 @@ img {
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
 }
 
-/* line 2, ../sass/components/_grid.scss */
+/* line 2, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_grid.scss */
 .grid ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 8, ../sass/components/_grid.scss */
+/* line 8, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_grid.scss */
 .grid li {
   float: left;
   background-image: url(placeholder.png);
   width: 25%;
   height: auto;
 }
-/* line 14, ../sass/components/_grid.scss */
+/* line 14, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_grid.scss */
 .grid li img {
   background: white;
   width: 100%;
   height: auto;
 }
-/* line 20, ../sass/components/_grid.scss */
+/* line 20, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_grid.scss */
 .grid li img:hover {
   -webkit-transform: scale(1.5, 1.5);
   -moz-transform: scale(1.5, 1.5);
@@ -84,31 +424,31 @@ img {
   -moz-box-shadow: black 2px 2px 15px;
   box-shadow: black 2px 2px 15px;
 }
-/* line 28, ../sass/components/_grid.scss */
+/* line 28, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_grid.scss */
 .grid li:nth-child(1) img {
   background: silver;
 }
-/* line 33, ../sass/components/_grid.scss */
+/* line 33, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_grid.scss */
 .grid li:nth-child(3) img {
   background: silver;
 }
-/* line 38, ../sass/components/_grid.scss */
+/* line 38, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_grid.scss */
 .grid li:nth-child(6) img {
   background: silver;
 }
-/* line 43, ../sass/components/_grid.scss */
+/* line 43, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_grid.scss */
 .grid li:nth-child(8) img {
   background: silver;
 }
 
-/* line 1, ../sass/components/_hero.scss */
+/* line 1, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_hero.scss */
 .hero-unit {
   clear: both;
   background: white;
   margin-top: 10px;
 }
 
-/* line 7, ../sass/components/_hero.scss */
+/* line 7, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_hero.scss */
 .hero-pic {
   background: silver;
   height: auto;
@@ -116,31 +456,31 @@ img {
   max-width: 100%;
 }
 
-/* line 1, ../sass/components/_about.scss */
+/* line 1, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_about.scss */
 .about-area {
   background: silver;
   padding-top: 70px;
 }
 
-/* line 6, ../sass/components/_about.scss */
+/* line 6, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_about.scss */
 .about-rowone {
   width: 450px;
   margin-bottom: 50px;
 }
 
-/* line 12, ../sass/components/_about.scss */
+/* line 12, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_about.scss */
 img.about-rowone {
   width: 300px;
   margin-left: 50px;
 }
 
-/* line 18, ../sass/components/_about.scss */
+/* line 18, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_about.scss */
 .about-rowtwo .title {
   color: #336699;
   margin-left: 50px;
   margin-right: 50px;
 }
-/* line 23, ../sass/components/_about.scss */
+/* line 23, C:/Users/Harry/Harry's Stuff/Documents/GitHub/week10/complete portfolio/sass/components/_about.scss */
 .about-rowtwo p {
   margin-left: 50px;
   margin-right: 50px;
