@@ -1,0 +1,155 @@
+/* line 1, ../sass/components/_normalize.scss */
+html {
+  font-family: arial;
+  background: url("/Final/dist/img/black-Linen.png");
+  background-repeat: repeat;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 9, ../sass/components/_normalize.scss */
+body {
+  width: 100%;
+  max-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  background: white;
+}
+
+/* line 2, ../sass/components/_header.scss */
+header .head {
+  width: 100%;
+  overflow: auto;
+  background-color: #b4ddb4;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFB4DDB4', endColorstr='#FF002400');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b4ddb4), color-stop(0%, #83c783), color-stop(0%, #52b152), color-stop(0%, #008a00), color-stop(25%, #005700), color-stop(100%, #002400));
+  background-image: -webkit-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  background-image: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  background-image: -o-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  background-image: linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  text-align: center;
+}
+/* line 10, ../sass/components/_header.scss */
+header .head .logo {
+  float: left;
+  width: 30%;
+  height: auto;
+  min-width: 149px;
+  min-height: 112px;
+  margin-right: 2%;
+}
+/* line 18, ../sass/components/_header.scss */
+header .head .headline {
+  position: relative;
+  color: white;
+  font-style: italic;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* line 28, ../sass/components/_header.scss */
+header .head ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 33, ../sass/components/_header.scss */
+header .head ul li {
+  display: inline-block;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin: 4%;
+}
+/* line 39, ../sass/components/_header.scss */
+header .head ul li a {
+  width: 100%;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 47, ../sass/components/_header.scss */
+header .head ul li :hover {
+  background: #52b152;
+}
+@media screen and (max-width: 910px) {
+  /* line 54, ../sass/components/_header.scss */
+  header .head h1 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 695px) {
+  /* line 59, ../sass/components/_header.scss */
+  header .head .logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 340px) {
+  /* line 67, ../sass/components/_header.scss */
+  header .head ul li a {
+    font-size: 0.5em;
+    line-height: 30px;
+  }
+}
+
+/* line 1, ../sass/components/_body.scss */
+h3 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+/* line 6, ../sass/components/_body.scss */
+h3 img {
+  width: 30%;
+  height: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
+  float: right;
+  display: inline-block;
+}
+
+/* line 16, ../sass/components/_body.scss */
+p {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+/* line 20, ../sass/components/_body.scss */
+.csslider1.autoplay {
+  margin: 0;
+}
+
+/* line 23, ../sass/components/_body.scss */
+.slideshow {
+  width: 50%;
+  height: auto;
+  whitespace: nowrap;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: gray;
+}
+
+/* line 34, ../sass/components/_body.scss */
+.caledar {
+  text-align: center;
+}
+
+/* line 37, ../sass/components/_body.scss */
+.calendar-container {
+  width: 45%;
+}
+
+/* line 40, ../sass/components/_body.scss */
+.map {
+  float: left;
+  clear: both;
+}
