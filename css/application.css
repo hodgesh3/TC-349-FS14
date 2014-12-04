@@ -1,7 +1,11 @@
 /* line 1, ../sass/components/_normalize.scss */
 html {
   font-family: arial;
+<<<<<<< HEAD
   background: url("/Final/dist/img/black-Linen.png");
+=======
+  background: url("https://raw.githubusercontent.com/hodgesh3/TC-349-FS14/gh-pages/img/black-Linen.png");
+>>>>>>> 150e2c18c4dad3a0076a981104ea0838d91408d8
   background-repeat: repeat;
   padding: 0;
   margin: 0;
@@ -139,6 +143,7 @@ p {
 }
 
 /* line 34, ../sass/components/_body.scss */
+<<<<<<< HEAD
 .caledar {
   text-align: center;
 }
@@ -149,6 +154,14 @@ p {
 }
 
 /* line 40, ../sass/components/_body.scss */
+=======
+.calendar {
+  width: 40%;
+  height: auto;
+}
+
+/* line 38, ../sass/components/_body.scss */
+>>>>>>> 150e2c18c4dad3a0076a981104ea0838d91408d8
 .map {
   float: left;
   clear: both;
