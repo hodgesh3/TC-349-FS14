@@ -72,9 +72,8 @@ header .head ul li {
   margin: 0;
   padding: 0;
   margin: 4%;
-  font-size: 24px;
 }
-/* line 44, ../sass/components/_header.scss */
+/* line 43, ../sass/components/_header.scss */
 header .head ul li a {
   width: 100%;
   text-align: center;
@@ -83,24 +82,30 @@ header .head ul li a {
   color: #fff;
   text-decoration: none;
 }
-/* line 52, ../sass/components/_header.scss */
+/* line 51, ../sass/components/_header.scss */
 header .head ul li :hover {
   background: #52b152;
 }
 @media screen and (max-width: 943px) {
-  /* line 59, ../sass/components/_header.scss */
+  /* line 58, ../sass/components/_header.scss */
   header .head h1 {
-    font-size: 1.5em;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 827px) {
+  /* line 63, ../sass/components/_header.scss */
+  header .head h1 {
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 711px) {
-  /* line 64, ../sass/components/_header.scss */
+  /* line 68, ../sass/components/_header.scss */
   header .head .logo {
     display: none;
   }
 }
 @media screen and (max-width: 340px) {
-  /* line 72, ../sass/components/_header.scss */
+  /* line 76, ../sass/components/_header.scss */
   header .head ul li a {
     font-size: 0.5em;
     line-height: 30px;
