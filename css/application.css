@@ -1,7 +1,7 @@
 /* line 1, ../sass/components/_normalize.scss */
 html {
   font-family: arial;
-  background: url("/Final/dist/img/black-Linen.png");
+  background: url("https://raw.githubusercontent.com/hodgesh3/TC-349-FS14/gh-pages/img/black-Linen.png");
   background-repeat: repeat;
   padding: 0;
   margin: 0;
@@ -20,7 +20,13 @@ body {
 header {
   margin-top: 3%;
 }
-/* line 3, ../sass/components/_header.scss */
+@media (max-width: 504px) {
+  /* line 1, ../sass/components/_header.scss */
+  header {
+    margin: 0;
+  }
+}
+/* line 6, ../sass/components/_header.scss */
 header .head {
   width: 100%;
   overflow: auto;
@@ -34,7 +40,7 @@ header .head {
   background-image: linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
   text-align: center;
 }
-/* line 11, ../sass/components/_header.scss */
+/* line 14, ../sass/components/_header.scss */
 header .head .logo {
   float: left;
   width: 30%;
@@ -43,7 +49,7 @@ header .head .logo {
   min-height: 112px;
   margin-right: 2%;
 }
-/* line 19, ../sass/components/_header.scss */
+/* line 22, ../sass/components/_header.scss */
 header .head .headline {
   position: relative;
   color: white;
@@ -52,14 +58,14 @@ header .head .headline {
   margin-left: 5%;
   margin-right: 5%;
 }
-/* line 29, ../sass/components/_header.scss */
+/* line 32, ../sass/components/_header.scss */
 header .head ul {
   list-style-type: none;
   width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 34, ../sass/components/_header.scss */
+/* line 37, ../sass/components/_header.scss */
 header .head ul li {
   display: inline-block;
   color: white;
@@ -67,7 +73,7 @@ header .head ul li {
   padding: 0;
   margin: 4%;
 }
-/* line 40, ../sass/components/_header.scss */
+/* line 43, ../sass/components/_header.scss */
 header .head ul li a {
   width: 100%;
   text-align: center;
@@ -76,24 +82,24 @@ header .head ul li a {
   color: #fff;
   text-decoration: none;
 }
-/* line 48, ../sass/components/_header.scss */
+/* line 51, ../sass/components/_header.scss */
 header .head ul li :hover {
   background: #52b152;
 }
 @media screen and (max-width: 910px) {
-  /* line 55, ../sass/components/_header.scss */
+  /* line 58, ../sass/components/_header.scss */
   header .head h1 {
     font-size: 1.5em;
   }
 }
 @media screen and (max-width: 695px) {
-  /* line 60, ../sass/components/_header.scss */
+  /* line 63, ../sass/components/_header.scss */
   header .head .logo {
     display: none;
   }
 }
 @media screen and (max-width: 340px) {
-  /* line 68, ../sass/components/_header.scss */
+  /* line 71, ../sass/components/_header.scss */
   header .head ul li a {
     font-size: 0.5em;
     line-height: 30px;
@@ -148,37 +154,63 @@ p {
   background-image: -o-linear-gradient(top, #4c4c4c 0%, #595959 0%, #474747 0%, #474747 0%, #666666 0%, #474747 0%, #2b2b2b 0%, #1c1c1c 0%, #2c2c2c 3%, #131313 31%, #111111 61%, #000000 95%);
   background-image: linear-gradient(top, #4c4c4c 0%, #595959 0%, #474747 0%, #474747 0%, #666666 0%, #474747 0%, #2b2b2b 0%, #1c1c1c 0%, #2c2c2c 3%, #131313 31%, #111111 61%, #000000 95%);
 }
+@media (max-width: 750px) {
+  /* line 23, ../sass/components/_body.scss */
+  .slideshow {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+}
 
-/* line 38, ../sass/components/_body.scss */
+/* line 42, ../sass/components/_body.scss */
 .container {
   padding-bottom: 5%;
   margin-bottom: 5%;
 }
 
-/* line 43, ../sass/components/_body.scss */
+/* line 47, ../sass/components/_body.scss */
 .map-container {
   width: 50%;
   float: left;
   padding-bottom: 5%;
   margin-bottom: 5%;
 }
+@media (max-width: 960px) {
+  /* line 47, ../sass/components/_body.scss */
+  .map-container {
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+}
 
-/* line 49, ../sass/components/_body.scss */
+/* line 59, ../sass/components/_body.scss */
 .cal-container {
   width: 50%;
   float: right;
   padding-bottom: 5%;
   margin-bottom: 5%;
 }
+@media (max-width: 960px) {
+  /* line 59, ../sass/components/_body.scss */
+  .cal-container {
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+}
 
-/* line 55, ../sass/components/_body.scss */
+/* line 71, ../sass/components/_body.scss */
 .calendar {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 62, ../sass/components/_body.scss */
+/* line 78, ../sass/components/_body.scss */
 .calendar iframe, .calendar object, .calendar embed {
   position: absolute;
   top: 0;
@@ -187,14 +219,14 @@ p {
   height: 100%;
 }
 
-/* line 72, ../sass/components/_body.scss */
+/* line 88, ../sass/components/_body.scss */
 .map {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 79, ../sass/components/_body.scss */
+/* line 95, ../sass/components/_body.scss */
 .map iframe, .map object, .map embed {
   position: absolute;
   top: 0;
