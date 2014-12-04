@@ -1,0 +1,204 @@
+/* line 1, ../sass/components/_normalize.scss */
+html {
+  font-family: arial;
+  background: url("/Final/dist/img/black-Linen.png");
+  background-repeat: repeat;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 9, ../sass/components/_normalize.scss */
+body {
+  width: 100%;
+  max-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  background: white;
+}
+
+/* line 1, ../sass/components/_header.scss */
+header {
+  margin-top: 3%;
+}
+/* line 3, ../sass/components/_header.scss */
+header .head {
+  width: 100%;
+  overflow: auto;
+  background-color: #b4ddb4;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFB4DDB4', endColorstr='#FF002400');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b4ddb4), color-stop(0%, #83c783), color-stop(0%, #52b152), color-stop(0%, #008a00), color-stop(25%, #005700), color-stop(100%, #002400));
+  background-image: -webkit-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  background-image: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  background-image: -o-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  background-image: linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  text-align: center;
+}
+/* line 11, ../sass/components/_header.scss */
+header .head .logo {
+  float: left;
+  width: 30%;
+  height: auto;
+  min-width: 149px;
+  min-height: 112px;
+  margin-right: 2%;
+}
+/* line 19, ../sass/components/_header.scss */
+header .head .headline {
+  position: relative;
+  color: white;
+  font-style: italic;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* line 29, ../sass/components/_header.scss */
+header .head ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 34, ../sass/components/_header.scss */
+header .head ul li {
+  display: inline-block;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin: 4%;
+}
+/* line 40, ../sass/components/_header.scss */
+header .head ul li a {
+  width: 100%;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 48, ../sass/components/_header.scss */
+header .head ul li :hover {
+  background: #52b152;
+}
+@media screen and (max-width: 910px) {
+  /* line 55, ../sass/components/_header.scss */
+  header .head h1 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 695px) {
+  /* line 60, ../sass/components/_header.scss */
+  header .head .logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 340px) {
+  /* line 68, ../sass/components/_header.scss */
+  header .head ul li a {
+    font-size: 0.5em;
+    line-height: 30px;
+  }
+}
+
+/* line 1, ../sass/components/_body.scss */
+h3 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+/* line 6, ../sass/components/_body.scss */
+h3 img {
+  width: 30%;
+  height: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
+  float: right;
+  display: inline-block;
+}
+
+/* line 16, ../sass/components/_body.scss */
+p {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+/* line 20, ../sass/components/_body.scss */
+.csslider1.autoplay {
+  margin: 0;
+}
+
+/* line 23, ../sass/components/_body.scss */
+.slideshow {
+  width: 50%;
+  height: auto;
+  whitespace: nowrap;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #4c4c4c;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF4C4C4C', endColorstr='#FF000000');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4c4c4c), color-stop(0%, #595959), color-stop(0%, #474747), color-stop(0%, #474747), color-stop(0%, #666666), color-stop(0%, #474747), color-stop(0%, #2b2b2b), color-stop(0%, #1c1c1c), color-stop(3%, #2c2c2c), color-stop(31%, #131313), color-stop(61%, #111111), color-stop(95%, #000000));
+  background-image: -webkit-linear-gradient(top, #4c4c4c 0%, #595959 0%, #474747 0%, #474747 0%, #666666 0%, #474747 0%, #2b2b2b 0%, #1c1c1c 0%, #2c2c2c 3%, #131313 31%, #111111 61%, #000000 95%);
+  background-image: -moz-linear-gradient(top, #4c4c4c 0%, #595959 0%, #474747 0%, #474747 0%, #666666 0%, #474747 0%, #2b2b2b 0%, #1c1c1c 0%, #2c2c2c 3%, #131313 31%, #111111 61%, #000000 95%);
+  background-image: -o-linear-gradient(top, #4c4c4c 0%, #595959 0%, #474747 0%, #474747 0%, #666666 0%, #474747 0%, #2b2b2b 0%, #1c1c1c 0%, #2c2c2c 3%, #131313 31%, #111111 61%, #000000 95%);
+  background-image: linear-gradient(top, #4c4c4c 0%, #595959 0%, #474747 0%, #474747 0%, #666666 0%, #474747 0%, #2b2b2b 0%, #1c1c1c 0%, #2c2c2c 3%, #131313 31%, #111111 61%, #000000 95%);
+}
+
+/* line 38, ../sass/components/_body.scss */
+.container {
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+/* line 43, ../sass/components/_body.scss */
+.map-container {
+  width: 50%;
+  float: left;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+/* line 49, ../sass/components/_body.scss */
+.cal-container {
+  width: 50%;
+  float: right;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+/* line 55, ../sass/components/_body.scss */
+.calendar {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+/* line 62, ../sass/components/_body.scss */
+.calendar iframe, .calendar object, .calendar embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 72, ../sass/components/_body.scss */
+.map {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+/* line 79, ../sass/components/_body.scss */
+.map iframe, .map object, .map embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
