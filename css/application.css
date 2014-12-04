@@ -20,7 +20,7 @@ body {
 header {
   margin-top: 3%;
 }
-@media (max-width: 695px) {
+@media (max-width: 711px) {
   /* line 1, ../sass/components/_header.scss */
   header {
     margin: 0;
