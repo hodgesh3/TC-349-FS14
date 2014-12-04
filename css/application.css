@@ -91,15 +91,19 @@ header .head ul li :hover {
   header .head h1 {
     font-size: 1.5em;
   }
+  /* line 61, ../sass/components/_header.scss */
+  header .head li {
+    font-size: 2em;
+  }
 }
 @media screen and (max-width: 711px) {
-  /* line 63, ../sass/components/_header.scss */
+  /* line 66, ../sass/components/_header.scss */
   header .head .logo {
     display: none;
   }
 }
 @media screen and (max-width: 340px) {
-  /* line 71, ../sass/components/_header.scss */
+  /* line 74, ../sass/components/_header.scss */
   header .head ul li a {
     font-size: 0.5em;
     line-height: 30px;

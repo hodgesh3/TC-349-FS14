@@ -55,8 +55,11 @@ header{
       
     }
       @media screen and (max-width: 943px) {
-          h1 {
-              font-size: 1.5em;
+          h1{
+             font-size: 1.5em;
+          }
+          li{
+             font-size:2em;
           } 
         }
       @media screen and (max-width:711px){
