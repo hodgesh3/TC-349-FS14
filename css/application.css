@@ -141,7 +141,6 @@ p {
   width: 50%;
   height: auto;
   whitespace: nowrap;
-  overflow: hidden;
   text-align: center;
   padding-left: 25%;
   padding-right: 25%;
@@ -161,17 +160,19 @@ p {
   .slideshow {
     padding: 0;
     margin: 0;
-    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
   }
 }
 
-/* line 44, ../sass/components/_body.scss */
+/* line 45, ../sass/components/_body.scss */
 .container {
   padding-bottom: 5%;
   margin-bottom: 5%;
 }
 
-/* line 49, ../sass/components/_body.scss */
+/* line 50, ../sass/components/_body.scss */
 .map-container {
   width: 50%;
   float: left;
@@ -179,7 +180,7 @@ p {
   margin-bottom: 5%;
 }
 @media (max-width: 960px) {
-  /* line 49, ../sass/components/_body.scss */
+  /* line 50, ../sass/components/_body.scss */
   .map-container {
     width: 100%;
     float: none;
@@ -188,14 +189,14 @@ p {
   }
 }
 
-/* line 62, ../sass/components/_body.scss */
+/* line 63, ../sass/components/_body.scss */
 .map {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 69, ../sass/components/_body.scss */
+/* line 70, ../sass/components/_body.scss */
 .map iframe, .map object, .map embed {
   position: absolute;
   top: 0;
@@ -204,7 +205,7 @@ p {
   height: 100%;
 }
 
-/* line 78, ../sass/components/_body.scss */
+/* line 79, ../sass/components/_body.scss */
 .cal-container {
   width: 50%;
   float: right;
@@ -212,7 +213,7 @@ p {
   margin-bottom: 5%;
 }
 @media (max-width: 960px) {
-  /* line 78, ../sass/components/_body.scss */
+  /* line 79, ../sass/components/_body.scss */
   .cal-container {
     width: 100%;
     clear: both;
@@ -221,14 +222,14 @@ p {
   }
 }
 
-/* line 91, ../sass/components/_body.scss */
+/* line 92, ../sass/components/_body.scss */
 .calendar {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 98, ../sass/components/_body.scss */
+/* line 99, ../sass/components/_body.scss */
 .calendar iframe, .calendar object, .calendar embed {
   position: absolute;
   top: 0;
