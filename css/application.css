@@ -86,7 +86,7 @@ header .head ul li a {
 header .head ul li :hover {
   background: #52b152;
 }
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 943px) {
   /* line 58, ../sass/components/_header.scss */
   header .head h1 {
     font-size: 1.5em;
