@@ -1,7 +1,7 @@
 /* line 1, ../sass/components/_normalize.scss */
 html {
   font-family: arial;
-  background: url("/Final/dist/img/black-Linen.png");
+  background: url("/img/black-Linen.png");
   background-repeat: repeat;
   padding: 0;
   margin: 0;
