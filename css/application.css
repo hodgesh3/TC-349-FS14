@@ -107,7 +107,7 @@ header .head ul li :hover {
 @media screen and (max-width: 340px) {
   /* line 76, ../sass/components/_header.scss */
   header .head ul li a {
-    font-size: 0.5em;
+    font-size: 24px;
     line-height: 30px;
   }
 }
