@@ -93,7 +93,7 @@ header .head ul li :hover {
   }
   /* line 61, ../sass/components/_header.scss */
   header .head li {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 @media screen and (max-width: 711px) {
