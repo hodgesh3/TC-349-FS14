@@ -1,7 +1,7 @@
 /* line 1, ../sass/components/_normalize.scss */
 html {
   font-family: arial;
-  background: url("https://raw.githubusercontent.com/hodgesh3/TC-349-FS14/gh-pages/img/black-Linen.png");
+  background: url("/Final/dist/img/black-Linen.png");
   background-repeat: repeat;
   padding: 0;
   margin: 0;
