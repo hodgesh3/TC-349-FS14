@@ -45,18 +45,6 @@ p{
   margin-bottom:5%;
 }
 
-.map-container{
-  width:50%;
-  float:left;
-  padding-bottom:5%;
-  margin-bottom:5%;
-  @media (max-width:960px){
-    width:100%;
-    float:none;
-    margin:0;
-    padding:0;
-  }
-}
 .cal-container{
   width:50%;
   float:right;
@@ -86,6 +74,18 @@ p{
   }
 }
 
+.map-container{
+  width:50%;
+  float:left;
+  padding-bottom:5%;
+  margin-bottom:5%;
+  @media (max-width:960px){
+    width:100%;
+    float:none;
+    margin:0;
+    padding:0;
+  }
+}
 
 .map {
     position: relative;
