@@ -171,39 +171,6 @@ p {
 }
 
 /* line 48, ../sass/components/_body.scss */
-.cal-container {
-  width: 50%;
-  float: right;
-  padding-bottom: 5%;
-  margin-bottom: 5%;
-}
-@media (max-width: 960px) {
-  /* line 48, ../sass/components/_body.scss */
-  .cal-container {
-    width: 100%;
-    float: none;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-/* line 60, ../sass/components/_body.scss */
-.calendar {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-}
-/* line 67, ../sass/components/_body.scss */
-.calendar iframe, .calendar object, .calendar embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* line 77, ../sass/components/_body.scss */
 .map-container {
   width: 50%;
   float: left;
@@ -211,7 +178,7 @@ p {
   margin-bottom: 5%;
 }
 @media (max-width: 960px) {
-  /* line 77, ../sass/components/_body.scss */
+  /* line 48, ../sass/components/_body.scss */
   .map-container {
     width: 100%;
     float: none;
@@ -220,15 +187,48 @@ p {
   }
 }
 
-/* line 90, ../sass/components/_body.scss */
+/* line 61, ../sass/components/_body.scss */
 .map {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 97, ../sass/components/_body.scss */
+/* line 68, ../sass/components/_body.scss */
 .map iframe, .map object, .map embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 77, ../sass/components/_body.scss */
+.cal-container {
+  width: 50%;
+  float: right;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+@media (max-width: 960px) {
+  /* line 77, ../sass/components/_body.scss */
+  .cal-container {
+    width: 100%;
+    clear: both;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* line 90, ../sass/components/_body.scss */
+.calendar {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+/* line 97, ../sass/components/_body.scss */
+.calendar iframe, .calendar object, .calendar embed {
   position: absolute;
   top: 0;
   left: 0;
