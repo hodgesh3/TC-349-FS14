@@ -1,4 +1,339 @@
-/* line 1, ../sass/components/_normalize.scss */
+/* line 55, ../sass/components/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 63, ../sass/components/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 74, ../sass/components/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 84, ../sass/components/_normalize.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 97, ../sass/components/_normalize.scss */
+html {
+  font-size: 100%;
+  background: white;
+  color: black;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 113, ../sass/components/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 119, ../sass/components/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 132, ../sass/components/_normalize.scss */
+a {
+  background: transparent;
+}
+/* line 139, ../sass/components/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 146, ../sass/components/_normalize.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 159, ../sass/components/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 164, ../sass/components/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 169, ../sass/components/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 174, ../sass/components/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 179, ../sass/components/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 184, ../sass/components/_normalize.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+/* line 192, ../sass/components/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 199, ../sass/components/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 204, ../sass/components/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 211, ../sass/components/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 217, ../sass/components/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 225, ../sass/components/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/* line 236, ../sass/components/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 246, ../sass/components/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 254, ../sass/components/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 263, ../sass/components/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 271, ../sass/components/_normalize.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 279, ../sass/components/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 287, ../sass/components/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 294, ../sass/components/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 298, ../sass/components/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 311, ../sass/components/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 317, ../sass/components/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 326, ../sass/components/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 335, ../sass/components/_normalize.scss */
+nav ul,
+nav ol {
+  list-style-image: none;
+}
+
+/* line 350, ../sass/components/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 359, ../sass/components/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 369, ../sass/components/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 379, ../sass/components/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 386, ../sass/components/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 397, ../sass/components/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/* line 414, ../sass/components/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 426, ../sass/components/_normalize.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 436, ../sass/components/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 451, ../sass/components/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+/* line 462, ../sass/components/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/* line 470, ../sass/components/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 479, ../sass/components/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 490, ../sass/components/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 498, ../sass/components/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 507, ../sass/components/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/* line 517, ../sass/components/_normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/* line 1, ../sass/components/_setup.scss */
 html {
   font-family: arial;
   background: url("img/black-Linen.png");
@@ -7,7 +342,7 @@ html {
   margin: 0;
 }
 
-/* line 9, ../sass/components/_normalize.scss */
+/* line 9, ../sass/components/_setup.scss */
 body {
   width: 100%;
   max-width: 960px;
@@ -112,14 +447,14 @@ header .head ul li :hover {
   }
 }
 
-/* line 2, ../sass/components/_body.scss */
+/* line 2, ../sass/components/_home-body.scss */
 .home-page h3 {
   margin-top: 1%;
   margin-bottom: 1%;
   margin-left: 5%;
   margin-right: 3%;
 }
-/* line 8, ../sass/components/_body.scss */
+/* line 8, ../sass/components/_home-body.scss */
 .home-page h3 img {
   width: 30%;
   height: auto;
@@ -129,13 +464,13 @@ header .head ul li :hover {
   float: right;
   display: inline-block;
 }
-/* line 18, ../sass/components/_body.scss */
+/* line 18, ../sass/components/_home-body.scss */
 .home-page p {
   margin-left: 5%;
   margin-right: 8%;
   text-align: justify;
 }
-/* line 24, ../sass/components/_body.scss */
+/* line 24, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper {
   position: relative;
   margin: 0 auto 60px;
@@ -144,12 +479,12 @@ header .head ul li :hover {
   margin-right: 20%;
   *zoom: 1;
 }
-/* line 34, ../sass/components/_body.scss */
+/* line 34, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper img {
   max-width: 100%;
   display: block;
 }
-/* line 38, ../sass/components/_body.scss */
+/* line 38, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-viewport {
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
@@ -158,20 +493,20 @@ header .head ul li :hover {
   -o-transform: translatez(0);
   transform: translatez(0);
 }
-/* line 48, ../sass/components/_body.scss */
+/* line 48, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-controls-auto {
   position: absolute;
   bottom: -30px;
   width: 100%;
 }
-/* line 53, ../sass/components/_body.scss */
+/* line 53, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-pager {
   position: absolute;
   bottom: -30px;
   width: 100%;
   visibility: hidden;
 }
-/* line 59, ../sass/components/_body.scss */
+/* line 59, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-loading {
   min-height: 50px;
   background: url(images/bx_loader.gif) center center no-repeat white;
@@ -182,7 +517,7 @@ header .head ul li :hover {
   left: 0;
   z-index: 2000;
 }
-/* line 70, ../sass/components/_body.scss */
+/* line 70, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-pager {
   text-align: center;
   font-size: .85em;
@@ -191,25 +526,25 @@ header .head ul li :hover {
   color: #666;
   padding-top: 20px;
 }
-/* line 77, ../sass/components/_body.scss */
+/* line 77, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-pager .bx-pager-item {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 83, ../sass/components/_body.scss */
+/* line 83, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-controls-auto {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 88, ../sass/components/_body.scss */
+/* line 88, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-controls-auto-item {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 93, ../sass/components/_body.scss */
+/* line 93, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-player.bx-default-pager {
   background: #666;
   text-indent: -9999px;
@@ -222,33 +557,33 @@ header .head ul li :hover {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 104, ../sass/components/_body.scss */
+/* line 104, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-player.bx-default-pager a.active {
   background: #000;
 }
-/* line 107, ../sass/components/_body.scss */
+/* line 107, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-player.bx-default-pager a:hover {
   background: #000;
 }
-/* line 113, ../sass/components/_body.scss */
+/* line 113, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-prev {
   left: 10px;
   background: url(images/controls.png) no-repeat 0 -32px;
 }
-/* line 116, ../sass/components/_body.scss */
+/* line 116, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-prev .bx-prev:hover {
   background-position: 0 0;
 }
-/* line 120, ../sass/components/_body.scss */
+/* line 120, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-next {
   right: 10px;
   background: url(images/controls.png) no-repeat -43px -32px;
 }
-/* line 123, ../sass/components/_body.scss */
+/* line 123, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-next .bx-next:hover {
   background-position: -43px 0;
 }
-/* line 128, ../sass/components/_body.scss */
+/* line 128, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-controls-direction a {
   position: absolute;
   top: 50%;
@@ -259,15 +594,15 @@ header .head ul li :hover {
   text-indent: -9999px;
   z-index: 9999;
 }
-/* line 138, ../sass/components/_body.scss */
+/* line 138, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
 }
-/* line 142, ../sass/components/_body.scss */
+/* line 142, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-controls-auto {
   text-align: center;
 }
-/* line 145, ../sass/components/_body.scss */
+/* line 145, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-start {
   display: block;
   text-indent: -9999px;
@@ -277,15 +612,15 @@ header .head ul li :hover {
   background: url("images/controls.png") -86px -11px no-repeat;
   margin: 0 3px;
 }
-/* line 154, ../sass/components/_body.scss */
+/* line 154, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-start .bx-start.active {
   background-position: -86px 0;
 }
-/* line 157, ../sass/components/_body.scss */
+/* line 157, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-start .bx-start:hover {
   background-position: -86px 0;
 }
-/* line 161, ../sass/components/_body.scss */
+/* line 161, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-stop {
   display: block;
   text-indent: -9999px;
@@ -295,25 +630,25 @@ header .head ul li :hover {
   background: url(images/controls.png) -86px -44px no-repeat;
   margin: 0 3px;
 }
-/* line 170, ../sass/components/_body.scss */
+/* line 170, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-stop .bx-stop.active {
   background-position: -86px -33px;
 }
-/* line 173, ../sass/components/_body.scss */
+/* line 173, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-stop .bx-stop:hover {
   background-position: -86px -33px;
 }
-/* line 178, ../sass/components/_body.scss */
+/* line 178, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
   text-align: left;
   width: 80%;
 }
-/* line 184, ../sass/components/_body.scss */
+/* line 184, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
   right: 0;
   width: 35px;
 }
-/* line 189, ../sass/components/_body.scss */
+/* line 189, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-caption {
   position: absolute;
   bottom: 0;
@@ -322,7 +657,7 @@ header .head ul li :hover {
   background: rgba(80, 80, 80, 0.75);
   width: 100%;
 }
-/* line 196, ../sass/components/_body.scss */
+/* line 196, ../sass/components/_home-body.scss */
 .home-page .bx-wrapper .bx-caption span {
   color: #fff;
   font-family: Arial;
@@ -330,12 +665,12 @@ header .head ul li :hover {
   font-size: .85em;
   padding: 10px;
 }
-/* line 205, ../sass/components/_body.scss */
+/* line 205, ../sass/components/_home-body.scss */
 .home-page .container {
   padding-bottom: 5%;
   margin-bottom: 5%;
 }
-/* line 210, ../sass/components/_body.scss */
+/* line 210, ../sass/components/_home-body.scss */
 .home-page .map-container {
   width: 50%;
   float: left;
@@ -343,7 +678,7 @@ header .head ul li :hover {
   margin-bottom: 5%;
 }
 @media (max-width: 960px) {
-  /* line 210, ../sass/components/_body.scss */
+  /* line 210, ../sass/components/_home-body.scss */
   .home-page .map-container {
     width: 100%;
     float: none;
@@ -351,14 +686,14 @@ header .head ul li :hover {
     padding: 0;
   }
 }
-/* line 223, ../sass/components/_body.scss */
+/* line 223, ../sass/components/_home-body.scss */
 .home-page .map {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 230, ../sass/components/_body.scss */
+/* line 230, ../sass/components/_home-body.scss */
 .home-page .map iframe, .home-page .map object, .home-page .map embed {
   position: absolute;
   top: 0;
@@ -366,13 +701,13 @@ header .head ul li :hover {
   width: 100%;
   height: 100%;
 }
-/* line 237, ../sass/components/_body.scss */
+/* line 237, ../sass/components/_home-body.scss */
 .home-page .map .map-frame {
   width: 600;
   height: 450;
   border: 0;
 }
-/* line 244, ../sass/components/_body.scss */
+/* line 244, ../sass/components/_home-body.scss */
 .home-page .cal-container {
   width: 50%;
   float: right;
@@ -380,7 +715,7 @@ header .head ul li :hover {
   margin-bottom: 5%;
 }
 @media (max-width: 960px) {
-  /* line 244, ../sass/components/_body.scss */
+  /* line 244, ../sass/components/_home-body.scss */
   .home-page .cal-container {
     width: 100%;
     clear: both;
@@ -388,14 +723,14 @@ header .head ul li :hover {
     padding: 0;
   }
 }
-/* line 257, ../sass/components/_body.scss */
+/* line 257, ../sass/components/_home-body.scss */
 .home-page .calendar {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 264, ../sass/components/_body.scss */
+/* line 264, ../sass/components/_home-body.scss */
 .home-page .calendar iframe, .home-page .calendar object, .home-page .calendar embed {
   position: absolute;
   top: 0;
@@ -403,7 +738,7 @@ header .head ul li :hover {
   width: 100%;
   height: 100%;
 }
-/* line 273, ../sass/components/_body.scss */
+/* line 273, ../sass/components/_home-body.scss */
 .home-page .calendar .cal-frame {
   border-width: 0;
   width: 800;
