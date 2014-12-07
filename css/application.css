@@ -140,19 +140,16 @@ header .head ul li :hover {
   position: relative;
   margin: 0 auto 60px;
   padding: 0;
+  margin-left: 10%;
+  margin-right: 20%;
   *zoom: 1;
 }
-/* line 29, ../sass/components/_body.scss */
-.home-page .bx-wrapper li {
-  display: inline-block;
-  margin-left: 2%;
-}
-/* line 33, ../sass/components/_body.scss */
+/* line 34, ../sass/components/_body.scss */
 .home-page .bx-wrapper img {
   max-width: 100%;
   display: block;
 }
-/* line 37, ../sass/components/_body.scss */
+/* line 38, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-viewport {
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
@@ -161,20 +158,20 @@ header .head ul li :hover {
   -o-transform: translatez(0);
   transform: translatez(0);
 }
-/* line 47, ../sass/components/_body.scss */
+/* line 48, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-controls-auto {
   position: absolute;
   bottom: -30px;
   width: 100%;
 }
-/* line 52, ../sass/components/_body.scss */
+/* line 53, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-pager {
   position: absolute;
   bottom: -30px;
   width: 100%;
   visibility: hidden;
 }
-/* line 58, ../sass/components/_body.scss */
+/* line 59, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-loading {
   min-height: 50px;
   background: url(images/bx_loader.gif) center center no-repeat white;
@@ -185,7 +182,7 @@ header .head ul li :hover {
   left: 0;
   z-index: 2000;
 }
-/* line 69, ../sass/components/_body.scss */
+/* line 70, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-pager {
   text-align: center;
   font-size: .85em;
@@ -194,25 +191,25 @@ header .head ul li :hover {
   color: #666;
   padding-top: 20px;
 }
-/* line 76, ../sass/components/_body.scss */
+/* line 77, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-pager .bx-pager-item {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 82, ../sass/components/_body.scss */
+/* line 83, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-controls-auto {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 87, ../sass/components/_body.scss */
+/* line 88, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-controls-auto-item {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 92, ../sass/components/_body.scss */
+/* line 93, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-player.bx-default-pager {
   background: #666;
   text-indent: -9999px;
@@ -225,33 +222,33 @@ header .head ul li :hover {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 103, ../sass/components/_body.scss */
+/* line 104, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-player.bx-default-pager a.active {
   background: #000;
 }
-/* line 106, ../sass/components/_body.scss */
+/* line 107, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-player.bx-default-pager a:hover {
   background: #000;
 }
-/* line 112, ../sass/components/_body.scss */
+/* line 113, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-prev {
   left: 10px;
   background: url(images/controls.png) no-repeat 0 -32px;
 }
-/* line 115, ../sass/components/_body.scss */
+/* line 116, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-prev .bx-prev:hover {
   background-position: 0 0;
 }
-/* line 119, ../sass/components/_body.scss */
+/* line 120, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-next {
   right: 10px;
   background: url(images/controls.png) no-repeat -43px -32px;
 }
-/* line 122, ../sass/components/_body.scss */
+/* line 123, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-next .bx-next:hover {
   background-position: -43px 0;
 }
-/* line 127, ../sass/components/_body.scss */
+/* line 128, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-controls-direction a {
   position: absolute;
   top: 50%;
@@ -262,15 +259,15 @@ header .head ul li :hover {
   text-indent: -9999px;
   z-index: 9999;
 }
-/* line 137, ../sass/components/_body.scss */
+/* line 138, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
 }
-/* line 141, ../sass/components/_body.scss */
+/* line 142, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-controls-auto {
   text-align: center;
 }
-/* line 144, ../sass/components/_body.scss */
+/* line 145, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-start {
   display: block;
   text-indent: -9999px;
@@ -280,15 +277,15 @@ header .head ul li :hover {
   background: url("images/controls.png") -86px -11px no-repeat;
   margin: 0 3px;
 }
-/* line 153, ../sass/components/_body.scss */
+/* line 154, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-start .bx-start.active {
   background-position: -86px 0;
 }
-/* line 156, ../sass/components/_body.scss */
+/* line 157, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-start .bx-start:hover {
   background-position: -86px 0;
 }
-/* line 160, ../sass/components/_body.scss */
+/* line 161, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-stop {
   display: block;
   text-indent: -9999px;
@@ -298,25 +295,25 @@ header .head ul li :hover {
   background: url(images/controls.png) -86px -44px no-repeat;
   margin: 0 3px;
 }
-/* line 169, ../sass/components/_body.scss */
+/* line 170, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-stop .bx-stop.active {
   background-position: -86px -33px;
 }
-/* line 172, ../sass/components/_body.scss */
+/* line 173, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-stop .bx-stop:hover {
   background-position: -86px -33px;
 }
-/* line 177, ../sass/components/_body.scss */
+/* line 178, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
   text-align: left;
   width: 80%;
 }
-/* line 183, ../sass/components/_body.scss */
+/* line 184, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
   right: 0;
   width: 35px;
 }
-/* line 188, ../sass/components/_body.scss */
+/* line 189, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-caption {
   position: absolute;
   bottom: 0;
@@ -325,7 +322,7 @@ header .head ul li :hover {
   background: rgba(80, 80, 80, 0.75);
   width: 100%;
 }
-/* line 195, ../sass/components/_body.scss */
+/* line 196, ../sass/components/_body.scss */
 .home-page .bx-wrapper .bx-caption span {
   color: #fff;
   font-family: Arial;
@@ -333,12 +330,12 @@ header .head ul li :hover {
   font-size: .85em;
   padding: 10px;
 }
-/* line 204, ../sass/components/_body.scss */
+/* line 205, ../sass/components/_body.scss */
 .home-page .container {
   padding-bottom: 5%;
   margin-bottom: 5%;
 }
-/* line 209, ../sass/components/_body.scss */
+/* line 210, ../sass/components/_body.scss */
 .home-page .map-container {
   width: 50%;
   float: left;
@@ -346,7 +343,7 @@ header .head ul li :hover {
   margin-bottom: 5%;
 }
 @media (max-width: 960px) {
-  /* line 209, ../sass/components/_body.scss */
+  /* line 210, ../sass/components/_body.scss */
   .home-page .map-container {
     width: 100%;
     float: none;
@@ -354,14 +351,14 @@ header .head ul li :hover {
     padding: 0;
   }
 }
-/* line 222, ../sass/components/_body.scss */
+/* line 223, ../sass/components/_body.scss */
 .home-page .map {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 229, ../sass/components/_body.scss */
+/* line 230, ../sass/components/_body.scss */
 .home-page .map iframe, .home-page .map object, .home-page .map embed {
   position: absolute;
   top: 0;
@@ -369,13 +366,13 @@ header .head ul li :hover {
   width: 100%;
   height: 100%;
 }
-/* line 236, ../sass/components/_body.scss */
+/* line 237, ../sass/components/_body.scss */
 .home-page .map .map-frame {
   width: 600;
   height: 450;
   border: 0;
 }
-/* line 243, ../sass/components/_body.scss */
+/* line 244, ../sass/components/_body.scss */
 .home-page .cal-container {
   width: 50%;
   float: right;
@@ -383,7 +380,7 @@ header .head ul li :hover {
   margin-bottom: 5%;
 }
 @media (max-width: 960px) {
-  /* line 243, ../sass/components/_body.scss */
+  /* line 244, ../sass/components/_body.scss */
   .home-page .cal-container {
     width: 100%;
     clear: both;
@@ -391,14 +388,14 @@ header .head ul li :hover {
     padding: 0;
   }
 }
-/* line 256, ../sass/components/_body.scss */
+/* line 257, ../sass/components/_body.scss */
 .home-page .calendar {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 263, ../sass/components/_body.scss */
+/* line 264, ../sass/components/_body.scss */
 .home-page .calendar iframe, .home-page .calendar object, .home-page .calendar embed {
   position: absolute;
   top: 0;
@@ -406,7 +403,7 @@ header .head ul li :hover {
   width: 100%;
   height: 100%;
 }
-/* line 272, ../sass/components/_body.scss */
+/* line 273, ../sass/components/_body.scss */
 .home-page .calendar .cal-frame {
   border-width: 0;
   width: 800;
