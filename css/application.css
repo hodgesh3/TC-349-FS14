@@ -767,7 +767,7 @@ header .head ul li :hover {
     padding-bottom: 3%;
   }
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen (min-device-width: 320px){
   /* line 291, ../sass/components/_home-body.scss */
   .home-page .cal-container .calendar {
     visibility: hidden;
@@ -775,7 +775,20 @@ header .head ul li :hover {
   /* line 293, ../sass/components/_home-body.scss */
   .home-page .cal-container .calendar .cal-image {
     visibility: visible;
-    max-width:100%;
+    max-width:320px;
+    height:auto;
+  }
+}
+
+@media only screen (max-device-width: 480px) {
+  /* line 291, ../sass/components/_home-body.scss */
+  .home-page .cal-container .calendar {
+    visibility: hidden;
+  }
+  /* line 293, ../sass/components/_home-body.scss */
+  .home-page .cal-container .calendar .cal-image {
+    visibility: visible;
+    max-width:480px;
     height:auto;
   }
 }
