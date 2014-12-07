@@ -790,6 +790,7 @@ header .head ul li :hover {
   margin: 0;
   margin-left: 4%;
   margin-right: 4%;
+  margin-bottom: 4%;
   padding-top: 2%;
   padding-bottom: 5%;
 }
@@ -800,8 +801,9 @@ header .head ul li :hover {
   margin-bottom: 1%;
   margin-left: 3%;
   margin-right: 3%;
+  color: green;
 }
-/* line 7, ../sass/components/events-body.scss */
+/* line 8, ../sass/components/events-body.scss */
 .events-page h1 img {
   width: 30%;
   height: auto;
@@ -809,14 +811,14 @@ header .head ul li :hover {
   float: right;
   display: inline-block;
 }
-/* line 16, ../sass/components/events-body.scss */
+/* line 17, ../sass/components/events-body.scss */
 .events-page .com-night h3 {
   margin-top: 10%;
   margin-bottom: 1%;
   margin-left: 5%;
   margin-right: 3%;
 }
-/* line 23, ../sass/components/events-body.scss */
+/* line 24, ../sass/components/events-body.scss */
 .events-page .com-text {
   margin-top: 0;
   margin-bottom: 1%;
