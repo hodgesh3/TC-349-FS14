@@ -254,22 +254,7 @@ p{
   float:right;
   padding-bottom:5%;
   margin-bottom:5%;
-  @media (max-width:960px){
-    width:100%;
-    clear:both;
-    margin:0;
-    padding:0;
-    margin-bottom:3%;
-    padding-bottom:3%;
-  }
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .calendar{
-      visibility:hidden;
-      .cal-image{
-        visibility:visible;
-      }
-    }
-}
+  
 .calendar {
     position: relative;
     padding-bottom: 56.25%;
@@ -294,5 +279,21 @@ p{
     width:800; 
     height:600;
   }
+  @media (max-width:960px){
+    width:100%;
+    clear:both;
+    margin:0;
+    padding:0;
+    margin-bottom:3%;
+    padding-bottom:3%;
+  }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .calendar{
+      visibility:hidden;
+      .cal-image{
+        visibility:visible;
+      }
+    }
+}
 }
 }
