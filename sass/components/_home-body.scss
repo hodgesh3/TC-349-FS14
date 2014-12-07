@@ -20,24 +20,20 @@ p{
   margin-right:8%;
   text-align:justify;
 }
-
+.slider{
     .bx-wrapper {
     position: relative;
     margin: 0 auto 60px;
     padding: 0;
-    margin-left:20%;
-    margin-right:20%;
     *zoom: 1;
-        li{
-
-        }
+         
         img{
-          max-width: 100%;
-          display: block;
+          display:block;
+          max-width:100%;
+          margin-left:auto;
+          margin-right:auto;
         }
         .bx-viewport {
-        
-        
         /*fix other elements on the page moving (on Chrome)*/
         -webkit-transform: translatez(0);
         -moz-transform: translatez(0);
@@ -112,6 +108,8 @@ p{
       
       .bx-prev {
         left: 10px;
+        margin:0;
+        margin-left:10px;
         background: url(images/controls.png) no-repeat 0 -32px;
         .bx-prev:hover {
           background-position: 0 0;
@@ -119,7 +117,9 @@ p{
       }
       .bx-next {
         right: 10px;
+        margin-right:10px;
         background: url(images/controls.png) no-repeat -43px -32px;
+        margin:0;
         .bx-next:hover {
           background-position: -43px 0;
         }
@@ -202,6 +202,7 @@ p{
       }
     }
     }
+}
 .container{
   padding-bottom:5%;
   margin-bottom:5%;
