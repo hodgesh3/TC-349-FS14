@@ -255,9 +255,7 @@ p{
   padding-bottom:5%;
   margin-bottom:5%;
   
-.cal-replacer{
-    visibility:hidden;
-  }
+
 .calendar {
     position: relative;
     padding-bottom: 56.25%;
@@ -287,25 +285,18 @@ p{
     margin-bottom:3%;
     padding-bottom:3%;
   }
-  @media only screen and (min-device-width : 320px){
+}
+.cal-replacer{
+    width:100%;
+    height:auto;
+    visibility:hidden;
+  }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .calendar{
       visibility:hidden;
     }
     .cal-replacer{
-      width:320px;
-      height:auto;
       visibility:visible;
     }
-}
-@media only screen and (max-device-width : 480px) {
-    .calendar{
-      visibility:hidden;
-    }
-    .cal-replacer{
-      width:480px;
-      height:auto;
-      visibility:visible;
-    }
-}
 }
 }
