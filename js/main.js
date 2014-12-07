@@ -5,8 +5,10 @@ $('.bxslider').bxSlider({
   autoStart: true,
   startText: "Start",
   stopText: "Stop",
+  autoControlsSelector: null,
   touchEnabled: true,
   swipeThreshold: 50,
   preventDefaultSwipeX: true,
-  responsive: true
+  adaptiveHeight: true,
+  responsive: true,
 });
