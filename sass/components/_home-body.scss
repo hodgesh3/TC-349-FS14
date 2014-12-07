@@ -255,14 +255,16 @@ p{
   padding-bottom:5%;
   margin-bottom:5%;
   
+.cal-replacer{
+    width:100%;
+    height:auto;
+    visibility:hidden;
+  }
 .calendar {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    .cal-image{
-      visibility:hidden;
-    }
 }
  
   iframe, object, embed {
@@ -290,9 +292,9 @@ p{
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .calendar{
       visibility:hidden;
-      .cal-image{
-        visibility:visible;
-      }
+    }
+    .cal-replacer{
+      visibility:visible;
     }
 }
 }
