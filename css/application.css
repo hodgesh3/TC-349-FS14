@@ -448,29 +448,30 @@ header .head ul li :hover {
 }
 
 /* line 2, ../sass/components/_home-body.scss */
-.home-page h3 {
-  margin-top: 1%;
+.home-page h1 {
+  margin-top: 2%;
   margin-bottom: 1%;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-right: 3%;
+  color: green;
 }
-/* line 8, ../sass/components/_home-body.scss */
-.home-page h3 img {
+/* line 9, ../sass/components/_home-body.scss */
+.home-page h1 img {
   width: 35%;
   height: auto;
-  margin-left: 4%;
+  margin-left: 2%;
   margin-right: 3%;
   margin-top: 1%;
   float: right;
   display: inline-block;
 }
-/* line 18, ../sass/components/_home-body.scss */
+/* line 19, ../sass/components/_home-body.scss */
 .home-page p {
   margin-left: 5%;
-  margin-right: 8%;
+  margin-right: 5%;
   text-align: justify;
 }
-/* line 24, ../sass/components/_home-body.scss */
+/* line 25, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper {
   position: relative;
   margin: 0 auto;
@@ -478,14 +479,14 @@ header .head ul li :hover {
   padding: 0;
   *zoom: 1;
 }
-/* line 31, ../sass/components/_home-body.scss */
+/* line 32, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper img {
   display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 37, ../sass/components/_home-body.scss */
+/* line 38, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper li {
   background-color: #45484d;
   *zoom: 1;
@@ -496,7 +497,7 @@ header .head ul li :hover {
   background-image: -o-linear-gradient(top, #45484d 0%, #000000 100%);
   background-image: linear-gradient(top, #45484d 0%, #000000 100%);
 }
-/* line 42, ../sass/components/_home-body.scss */
+/* line 43, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-viewport {
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
@@ -505,20 +506,20 @@ header .head ul li :hover {
   -o-transform: translatez(0);
   transform: translatez(0);
 }
-/* line 50, ../sass/components/_home-body.scss */
+/* line 51, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-auto {
   position: absolute;
   bottom: -30px;
   width: 100%;
 }
-/* line 55, ../sass/components/_home-body.scss */
+/* line 56, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-pager {
   position: absolute;
   bottom: -30px;
   width: 100%;
   visibility: hidden;
 }
-/* line 61, ../sass/components/_home-body.scss */
+/* line 62, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-loading {
   min-height: 50px;
   background: url(images/bx_loader.gif) center center no-repeat white;
@@ -529,7 +530,7 @@ header .head ul li :hover {
   left: 0;
   z-index: 2000;
 }
-/* line 72, ../sass/components/_home-body.scss */
+/* line 73, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-pager {
   text-align: center;
   font-size: .85em;
@@ -538,25 +539,25 @@ header .head ul li :hover {
   color: #666;
   padding-top: 20px;
 }
-/* line 79, ../sass/components/_home-body.scss */
+/* line 80, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-pager .bx-pager-item {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 85, ../sass/components/_home-body.scss */
+/* line 86, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-auto {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 90, ../sass/components/_home-body.scss */
+/* line 91, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-auto-item {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 95, ../sass/components/_home-body.scss */
+/* line 96, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-player.bx-default-pager {
   background: #666;
   text-indent: -9999px;
@@ -569,37 +570,37 @@ header .head ul li :hover {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 106, ../sass/components/_home-body.scss */
+/* line 107, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-player.bx-default-pager a.active {
   background: #000;
 }
-/* line 109, ../sass/components/_home-body.scss */
+/* line 110, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-player.bx-default-pager a:hover {
   background: #000;
 }
-/* line 115, ../sass/components/_home-body.scss */
+/* line 116, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-prev {
   left: 10px;
   margin: 0;
   margin-left: 10px;
   background: url(images/controls.png) no-repeat 0 -32px;
 }
-/* line 120, ../sass/components/_home-body.scss */
+/* line 121, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-prev .bx-prev:hover {
   background-position: 0 0;
 }
-/* line 124, ../sass/components/_home-body.scss */
+/* line 125, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-next {
   right: 10px;
   margin-right: 10px;
   background: url(images/controls.png) no-repeat -43px -32px;
   margin: 0;
 }
-/* line 129, ../sass/components/_home-body.scss */
+/* line 130, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-next .bx-next:hover {
   background-position: -43px 0;
 }
-/* line 134, ../sass/components/_home-body.scss */
+/* line 135, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-direction a {
   position: absolute;
   top: 50%;
@@ -610,15 +611,15 @@ header .head ul li :hover {
   text-indent: -9999px;
   z-index: 9999;
 }
-/* line 144, ../sass/components/_home-body.scss */
+/* line 145, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
 }
-/* line 148, ../sass/components/_home-body.scss */
+/* line 149, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-auto {
   text-align: center;
 }
-/* line 151, ../sass/components/_home-body.scss */
+/* line 152, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-start {
   display: block;
   text-indent: -9999px;
@@ -628,15 +629,15 @@ header .head ul li :hover {
   background: url("images/controls.png") -86px -11px no-repeat;
   margin: 0 3px;
 }
-/* line 160, ../sass/components/_home-body.scss */
+/* line 161, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-start .bx-start.active {
   background-position: -86px 0;
 }
-/* line 163, ../sass/components/_home-body.scss */
+/* line 164, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-start .bx-start:hover {
   background-position: -86px 0;
 }
-/* line 167, ../sass/components/_home-body.scss */
+/* line 168, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-stop {
   display: block;
   text-indent: -9999px;
@@ -646,25 +647,25 @@ header .head ul li :hover {
   background: url(images/controls.png) -86px -44px no-repeat;
   margin: 0 3px;
 }
-/* line 176, ../sass/components/_home-body.scss */
+/* line 177, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-stop .bx-stop.active {
   background-position: -86px -33px;
 }
-/* line 179, ../sass/components/_home-body.scss */
+/* line 180, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-stop .bx-stop:hover {
   background-position: -86px -33px;
 }
-/* line 184, ../sass/components/_home-body.scss */
+/* line 185, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
   text-align: left;
   width: 80%;
 }
-/* line 190, ../sass/components/_home-body.scss */
+/* line 191, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
   right: 0;
   width: 35px;
 }
-/* line 195, ../sass/components/_home-body.scss */
+/* line 196, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-caption {
   position: absolute;
   bottom: 0;
@@ -673,7 +674,7 @@ header .head ul li :hover {
   background: rgba(80, 80, 80, 0.75);
   width: 100%;
 }
-/* line 202, ../sass/components/_home-body.scss */
+/* line 203, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-caption span {
   color: #fff;
   font-family: Arial;
@@ -681,12 +682,12 @@ header .head ul li :hover {
   font-size: .85em;
   padding: 10px;
 }
-/* line 212, ../sass/components/_home-body.scss */
+/* line 213, ../sass/components/_home-body.scss */
 .home-page .container {
   padding-bottom: 5%;
   margin-bottom: 5%;
 }
-/* line 217, ../sass/components/_home-body.scss */
+/* line 218, ../sass/components/_home-body.scss */
 .home-page .map-container {
   width: 50%;
   float: left;
@@ -694,7 +695,7 @@ header .head ul li :hover {
   margin-bottom: 5%;
 }
 @media (max-width: 960px) {
-  /* line 217, ../sass/components/_home-body.scss */
+  /* line 218, ../sass/components/_home-body.scss */
   .home-page .map-container {
     width: 100%;
     float: none;
@@ -702,14 +703,14 @@ header .head ul li :hover {
     padding: 0;
   }
 }
-/* line 230, ../sass/components/_home-body.scss */
+/* line 231, ../sass/components/_home-body.scss */
 .home-page .map {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 237, ../sass/components/_home-body.scss */
+/* line 238, ../sass/components/_home-body.scss */
 .home-page .map iframe, .home-page .map object, .home-page .map embed {
   position: absolute;
   top: 0;
@@ -717,13 +718,13 @@ header .head ul li :hover {
   width: 100%;
   height: 100%;
 }
-/* line 244, ../sass/components/_home-body.scss */
+/* line 245, ../sass/components/_home-body.scss */
 .home-page .map .map-frame {
   width: 600;
   height: 450;
   border: 0;
 }
-/* line 251, ../sass/components/_home-body.scss */
+/* line 252, ../sass/components/_home-body.scss */
 .home-page .cal-container {
   width: 50%;
   float: right;
@@ -731,7 +732,7 @@ header .head ul li :hover {
   margin-bottom: 5%;
 }
 @media (max-width: 960px) {
-  /* line 251, ../sass/components/_home-body.scss */
+  /* line 252, ../sass/components/_home-body.scss */
   .home-page .cal-container {
     width: 100%;
     clear: both;
@@ -739,14 +740,14 @@ header .head ul li :hover {
     padding: 0;
   }
 }
-/* line 264, ../sass/components/_home-body.scss */
+/* line 265, ../sass/components/_home-body.scss */
 .home-page .calendar {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 271, ../sass/components/_home-body.scss */
+/* line 272, ../sass/components/_home-body.scss */
 .home-page .calendar iframe, .home-page .calendar object, .home-page .calendar embed {
   position: absolute;
   top: 0;
@@ -754,37 +755,41 @@ header .head ul li :hover {
   width: 100%;
   height: 100%;
 }
-/* line 280, ../sass/components/_home-body.scss */
+/* line 281, ../sass/components/_home-body.scss */
 .home-page .calendar .cal-frame {
   border-width: 0;
   width: 800;
   height: 600;
 }
 
-/* line 3, ../sass/components/_about-body.scss */
-.about-page .info {
-  margin-bottom: 5%;
-  margin-right: 5%;
-  margin-left: 5%;
+/* line 5, ../sass/components/_about-body.scss */
+.about-page .info h1 {
+  color: green;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
-/* line 10, ../sass/components/_about-body.scss */
+/* line 14, ../sass/components/_about-body.scss */
 .about-page .info .contact-info li {
   list-style-type: none;
   margin-bottom: 2%;
 }
-/* line 13, ../sass/components/_about-body.scss */
+/* line 17, ../sass/components/_about-body.scss */
 .about-page .info .contact-info li span {
   font-weight: bold;
 }
-/* line 16, ../sass/components/_about-body.scss */
+/* line 20, ../sass/components/_about-body.scss */
 .about-page .info .contact-info li a {
   color: blue;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 24, ../sass/components/_about-body.scss */
+/* line 28, ../sass/components/_about-body.scss */
 .about-page .about-text {
   margin: 0;
+  margin-left: 4%;
+  margin-right: 4%;
   padding-top: 2%;
   padding-bottom: 5%;
 }
@@ -829,36 +834,43 @@ header .head ul li :hover {
   margin-left: 8%;
 }
 /* line 8, ../sass/components/menu-body.scss */
-.menu h1 {
-  margin: 0;
+.menu .menu-header {
+  text-align: center;
   margin-left: 3%;
-  padding-top: 3%;
-  display: inline-block;
-  color: green;
+  margin-right: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
 }
 /* line 15, ../sass/components/menu-body.scss */
+.menu h1 {
+  color: green;
+  display: inline-block;
+}
+/* line 19, ../sass/components/menu-body.scss */
 .menu p {
   margin: 0;
-  margin-top: 3%;
-  margin-left: 4%;
-  display: inline-block;
+  padding: 0;
   font-weight: bold;
   font-size: 1.5em;
+  display: inline;
 }
-/* line 23, ../sass/components/menu-body.scss */
+/* line 26, ../sass/components/menu-body.scss */
 .menu h3 {
   color: green;
   text-decoration: underline;
   font-style: italic;
-  margin-left: 8%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-right: 4%;
+  padding-left: 4%;
   margin-top: 2%;
 }
-/* line 30, ../sass/components/menu-body.scss */
+/* line 36, ../sass/components/menu-body.scss */
 .menu h3:hover {
   color: black;
   cursor: pointer;
 }
-/* line 34, ../sass/components/menu-body.scss */
+/* line 40, ../sass/components/menu-body.scss */
 .menu .lighter-winds {
   margin-bottom: 2%;
   padding-bottom: 2%;

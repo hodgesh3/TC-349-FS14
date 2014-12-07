@@ -1,10 +1,14 @@
 .about-page{
 
   .info{
-    margin-bottom:5%;
-    margin-right:5%;
-    margin-left:5%;
-  
+    
+    h1{
+      color:green;
+      margin-top:2%;
+      margin-bottom:1%;
+      margin-left:3%;
+      margin-right:3%;
+    }
   
   .contact-info{
     li{
@@ -23,6 +27,8 @@
   }
   .about-text{
     margin:0;
+    margin-left:4%;
+    margin-right:4%;
     padding-top:2%;
     padding-bottom:5%;
   }
