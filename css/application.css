@@ -775,6 +775,8 @@ header .head ul li :hover {
   /* line 293, ../sass/components/_home-body.scss */
   .home-page .cal-container .calendar .cal-image {
     visibility: visible;
+    max-width:100%;
+    height:auto;
   }
 }
 
