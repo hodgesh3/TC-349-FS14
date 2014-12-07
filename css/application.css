@@ -845,15 +845,16 @@ header .head ul li :hover {
 .menu h3 {
   color: green;
   text-decoration: underline;
+  font-style: italic;
   margin-left: 8%;
   margin-top: 2%;
 }
-/* line 25, ../sass/components/menu-body.scss */
+/* line 26, ../sass/components/menu-body.scss */
 .menu h3:hover {
   color: black;
   cursor: pointer;
 }
-/* line 29, ../sass/components/menu-body.scss */
+/* line 30, ../sass/components/menu-body.scss */
 .menu .lighter-winds {
   margin-bottom: 2%;
   padding-bottom: 2%;
