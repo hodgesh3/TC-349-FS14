@@ -1,6 +1,6 @@
 $('.bxslider').bxSlider({
   speed: 500,
-  infiniteLoop: false,
+  infiniteLoop: true,
   responsive: true,
   startText: "Start",
   stopText: "Stop",
