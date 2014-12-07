@@ -830,19 +830,21 @@ header .head ul li :hover {
 }
 /* line 8, ../sass/components/menu-body.scss */
 .menu h1 {
+  margin: 0;
   margin-left: 3%;
   padding-top: 3%;
   display: inline-block;
   color: green;
 }
-/* line 14, ../sass/components/menu-body.scss */
+/* line 15, ../sass/components/menu-body.scss */
 .menu p {
+  margin: 0;
   margin-top: 3%;
   display: inline-block;
   font-weight: bold;
   font-size: 1.5em;
 }
-/* line 20, ../sass/components/menu-body.scss */
+/* line 22, ../sass/components/menu-body.scss */
 .menu h3 {
   color: green;
   text-decoration: underline;
@@ -850,12 +852,12 @@ header .head ul li :hover {
   margin-left: 8%;
   margin-top: 2%;
 }
-/* line 27, ../sass/components/menu-body.scss */
+/* line 29, ../sass/components/menu-body.scss */
 .menu h3:hover {
   color: black;
   cursor: pointer;
 }
-/* line 31, ../sass/components/menu-body.scss */
+/* line 33, ../sass/components/menu-body.scss */
 .menu .lighter-winds {
   margin-bottom: 2%;
   padding-bottom: 2%;
