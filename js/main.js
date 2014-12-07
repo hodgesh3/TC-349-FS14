@@ -4,5 +4,5 @@ $('.bxslider').bxSlider({
   responsive: true,
   startText: "Start",
   stopText: "Stop",
-  pause: 4000,
+  touchEnabled: false
 });
