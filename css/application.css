@@ -767,22 +767,22 @@ header .head ul li :hover {
   margin-left: 5%;
 }
 /* line 10, ../sass/components/_about-body.scss */
-.about-page .info ul li {
+.about-page .info .contact-info li {
   list-style-type: none;
   margin-bottom: 2%;
 }
 /* line 13, ../sass/components/_about-body.scss */
-.about-page .info ul li span {
+.about-page .info .contact-info li span {
   font-weight: bold;
 }
 /* line 16, ../sass/components/_about-body.scss */
-.about-page .info ul li a {
+.about-page .info .contact-info li a {
   color: blue;
   font-weight: bold;
   text-decoration: none;
 }
 /* line 24, ../sass/components/_about-body.scss */
-.about-page p {
+.about-page .about-text {
   margin: 0;
   padding-top: 2%;
   padding-bottom: 5%;
