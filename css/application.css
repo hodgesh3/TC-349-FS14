@@ -749,7 +749,7 @@ header .head ul li :hover {
   }
   /* line 268, ../sass/components/_home-body.scss */
   .home-page .cal-container .calendar .cal-image {
-    visibility: display;
+    visibility: visible;
   }
 }
 /* line 273, ../sass/components/_home-body.scss */
