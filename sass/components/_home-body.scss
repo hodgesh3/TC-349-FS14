@@ -288,15 +288,16 @@ p{
     .calendar{
       display:none;
     }
+  }
 }
 .cal-replacer{
     width:100%;
     height:auto;
     display:none;
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .cal-replacer{
-      display:inline;
-    }
-}
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      .cal-replacer{
+        display:inline;
+      }
+  }
 }
 }
