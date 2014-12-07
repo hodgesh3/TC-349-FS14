@@ -9,5 +9,7 @@ $('.bxslider').bxSlider({
   swipeThreshold: 50,
   preventDefaultSwipeX: true,
   adaptiveHeight: true,
-  responsive: true
+  responsive: true,
+  infiniteLoop: false,
+  hideControlOnEnd: true
 });
