@@ -34,12 +34,28 @@ p{
   background-color: #4c4c4c; // Old browsers
   @include filter-gradient(#4c4c4c, #000000, vertical); // IE6-9
   @include background-image(linear-gradient(top,  #4c4c4c 0%,#595959 0%,#474747 0%,#474747 0%,#666666 0%,#474747 0%,#2b2b2b 0%,#1c1c1c 0%,#2c2c2c 3%,#131313 31%,#111111 61%,#000000 95%));
+  
+  .show-container{
+    width:100%;
+  }
+  
+  ul{
+    height:270px;
+    li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height:500px;
+  }
+  }
   @media (max-width:750px){
-    padding:0;
-    margin:0;
-    padding-left:10%;
-    padding-right:10%;
     width:80%;
+    height:auto;
+    whitespace:nowrap;
+    text-align:center;
+    padding-left:25%;
+    padding-right:25%;
   }
 }
 
