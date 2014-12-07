@@ -287,7 +287,7 @@ p{
     margin-bottom:3%;
     padding-bottom:3%;
   }
-  @media only screen (min-device-width : 320px){
+  @media only screen and (min-device-width : 320px){
     .calendar{
       visibility:hidden;
     }
@@ -297,7 +297,7 @@ p{
       visibility:visible;
     }
 }
-@media only screen (max-device-width : 480px) {
+@media only screen and (max-device-width : 480px) {
     .calendar{
       visibility:hidden;
     }
