@@ -1,34 +1,34 @@
-/* line 2, ../../sass/components/menu-body.scss */
-.menu ul {
+/* line 4, ../../sass/components/menu-body.scss */
+.menu-page .menu ul {
   display: none;
 }
-/* line 4, ../../sass/components/menu-body.scss */
-.menu ul li {
+/* line 6, ../../sass/components/menu-body.scss */
+.menu-page .menu ul li {
   margin-left: 8%;
 }
-/* line 8, ../../sass/components/menu-body.scss */
-.menu .menu-header {
+/* line 10, ../../sass/components/menu-body.scss */
+.menu-page .menu .menu-header {
   text-align: center;
   margin-left: 3%;
   margin-right: 3%;
   padding-right: 3%;
   padding-left: 3%;
 }
-/* line 15, ../../sass/components/menu-body.scss */
-.menu h1 {
+/* line 17, ../../sass/components/menu-body.scss */
+.menu-page .menu h1 {
   color: green;
   display: inline-block;
 }
-/* line 19, ../../sass/components/menu-body.scss */
-.menu p {
+/* line 21, ../../sass/components/menu-body.scss */
+.menu-page .menu p {
   margin: 0;
   padding: 0;
   font-weight: bold;
   font-size: 1.5em;
   display: inline;
 }
-/* line 26, ../../sass/components/menu-body.scss */
-.menu h3 {
+/* line 28, ../../sass/components/menu-body.scss */
+.menu-page .menu h3 {
   color: green;
   text-decoration: underline;
   font-style: italic;
@@ -38,13 +38,13 @@
   margin-top: 2%;
   width: 17%;
 }
-/* line 36, ../../sass/components/menu-body.scss */
-.menu h3:hover {
+/* line 38, ../../sass/components/menu-body.scss */
+.menu-page .menu h3:hover {
   color: black;
   cursor: pointer;
 }
-/* line 40, ../../sass/components/menu-body.scss */
-.menu .lighter-winds {
+/* line 42, ../../sass/components/menu-body.scss */
+.menu-page .menu .lighter-winds {
   margin-bottom: 2%;
   padding-bottom: 2%;
 }
