@@ -11,5 +11,4 @@ $('.bxslider').bxSlider({
   adaptiveHeight: true,
   responsive: true,
   infiniteLoop: false,
-  hideControlOnEnd: true
 });
