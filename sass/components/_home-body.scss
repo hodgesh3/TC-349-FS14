@@ -254,7 +254,6 @@ p{
   float:right;
   padding-bottom:5%;
   margin-bottom:5%;
-  
 
 .calendar {
     position: relative;
@@ -290,7 +289,6 @@ p{
     width:100%;
     height:auto;
     display:none;
-  }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .calendar{
       display:none;
@@ -298,5 +296,6 @@ p{
     .cal-replacer{
       display:inline;
     }
+}
 }
 }
