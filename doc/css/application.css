@@ -1,0 +1,424 @@
+/* line 1, ../sass/components/_normalize.scss */
+html {
+  font-family: arial;
+  background: url("img/black-Linen.png");
+  background-repeat: repeat;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 9, ../sass/components/_normalize.scss */
+body {
+  width: 100%;
+  max-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  background: white;
+}
+
+/* line 1, ../sass/components/_header.scss */
+header {
+  margin-top: 3%;
+}
+@media (max-width: 711px) {
+  /* line 1, ../sass/components/_header.scss */
+  header {
+    margin: 0;
+  }
+}
+/* line 6, ../sass/components/_header.scss */
+header .head {
+  width: 100%;
+  overflow: auto;
+  background-color: #b4ddb4;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFB4DDB4', endColorstr='#FF002400');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b4ddb4), color-stop(0%, #83c783), color-stop(0%, #52b152), color-stop(0%, #008a00), color-stop(25%, #005700), color-stop(100%, #002400));
+  background-image: -webkit-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  background-image: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  background-image: -o-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  background-image: linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
+  text-align: center;
+}
+/* line 14, ../sass/components/_header.scss */
+header .head .logo {
+  float: left;
+  width: 30%;
+  height: auto;
+  min-width: 149px;
+  min-height: 112px;
+  margin-right: 2%;
+}
+/* line 22, ../sass/components/_header.scss */
+header .head .headline {
+  position: relative;
+  color: white;
+  font-style: italic;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* line 32, ../sass/components/_header.scss */
+header .head ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 37, ../sass/components/_header.scss */
+header .head ul li {
+  display: inline-block;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin: 4%;
+}
+/* line 43, ../sass/components/_header.scss */
+header .head ul li a {
+  width: 100%;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 51, ../sass/components/_header.scss */
+header .head ul li :hover {
+  background: #52b152;
+}
+@media screen and (max-width: 943px) {
+  /* line 58, ../sass/components/_header.scss */
+  header .head h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 827px) {
+  /* line 63, ../sass/components/_header.scss */
+  header .head h1 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 711px) {
+  /* line 68, ../sass/components/_header.scss */
+  header .head .logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 340px) {
+  /* line 76, ../sass/components/_header.scss */
+  header .head ul li a {
+    font-size: 1em;
+    line-height: 30px;
+  }
+}
+
+/* line 2, ../sass/components/_body.scss */
+.home-page h3 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+/* line 8, ../sass/components/_body.scss */
+.home-page h3 img {
+  width: 30%;
+  height: auto;
+  margin-left: 4%;
+  margin-right: 3%;
+  margin-top: 1%;
+  float: right;
+  display: inline-block;
+}
+/* line 18, ../sass/components/_body.scss */
+.home-page p {
+  margin-left: 5%;
+  margin-right: 8%;
+  text-align: justify;
+}
+/* line 24, ../sass/components/_body.scss */
+.home-page .bx-wrapper {
+  position: relative;
+  margin: 0 auto 60px;
+  padding: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  *zoom: 1;
+}
+/* line 34, ../sass/components/_body.scss */
+.home-page .bx-wrapper img {
+  max-width: 100%;
+  display: block;
+}
+/* line 38, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-viewport {
+  /*fix other elements on the page moving (on Chrome)*/
+  -webkit-transform: translatez(0);
+  -moz-transform: translatez(0);
+  -ms-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
+}
+/* line 48, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+}
+/* line 53, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-pager {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  visibility: hidden;
+}
+/* line 59, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-loading {
+  min-height: 50px;
+  background: url(images/bx_loader.gif) center center no-repeat white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+/* line 70, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-pager {
+  text-align: center;
+  font-size: .85em;
+  font-family: Arial;
+  font-weight: bold;
+  color: #666;
+  padding-top: 20px;
+}
+/* line 77, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-pager .bx-pager-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 83, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-controls-auto {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 88, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 93, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-player.bx-default-pager {
+  background: #666;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 104, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-player.bx-default-pager a.active {
+  background: #000;
+}
+/* line 107, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-player.bx-default-pager a:hover {
+  background: #000;
+}
+/* line 113, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-prev {
+  left: 10px;
+  background: url(images/controls.png) no-repeat 0 -32px;
+}
+/* line 116, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-prev .bx-prev:hover {
+  background-position: 0 0;
+}
+/* line 120, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-next {
+  right: 10px;
+  background: url(images/controls.png) no-repeat -43px -32px;
+}
+/* line 123, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-next .bx-next:hover {
+  background-position: -43px 0;
+}
+/* line 128, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  z-index: 9999;
+}
+/* line 138, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-controls-direction a.disabled {
+  display: none;
+}
+/* line 142, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-controls-auto {
+  text-align: center;
+}
+/* line 145, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-start {
+  display: block;
+  text-indent: -9999px;
+  width: 10px;
+  height: 11px;
+  outline: 0;
+  background: url("images/controls.png") -86px -11px no-repeat;
+  margin: 0 3px;
+}
+/* line 154, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-start .bx-start.active {
+  background-position: -86px 0;
+}
+/* line 157, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-start .bx-start:hover {
+  background-position: -86px 0;
+}
+/* line 161, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-stop {
+  display: block;
+  text-indent: -9999px;
+  width: 9px;
+  height: 11px;
+  outline: 0;
+  background: url(images/controls.png) -86px -44px no-repeat;
+  margin: 0 3px;
+}
+/* line 170, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-stop .bx-stop.active {
+  background-position: -86px -33px;
+}
+/* line 173, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-stop .bx-stop:hover {
+  background-position: -86px -33px;
+}
+/* line 178, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+  text-align: left;
+  width: 80%;
+}
+/* line 184, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  right: 0;
+  width: 35px;
+}
+/* line 189, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666\9;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%;
+}
+/* line 196, ../sass/components/_body.scss */
+.home-page .bx-wrapper .bx-caption span {
+  color: #fff;
+  font-family: Arial;
+  display: block;
+  font-size: .85em;
+  padding: 10px;
+}
+/* line 205, ../sass/components/_body.scss */
+.home-page .container {
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+/* line 210, ../sass/components/_body.scss */
+.home-page .map-container {
+  width: 50%;
+  float: left;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+@media (max-width: 960px) {
+  /* line 210, ../sass/components/_body.scss */
+  .home-page .map-container {
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+/* line 223, ../sass/components/_body.scss */
+.home-page .map {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+/* line 230, ../sass/components/_body.scss */
+.home-page .map iframe, .home-page .map object, .home-page .map embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 237, ../sass/components/_body.scss */
+.home-page .map .map-frame {
+  width: 600;
+  height: 450;
+  border: 0;
+}
+/* line 244, ../sass/components/_body.scss */
+.home-page .cal-container {
+  width: 50%;
+  float: right;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+@media (max-width: 960px) {
+  /* line 244, ../sass/components/_body.scss */
+  .home-page .cal-container {
+    width: 100%;
+    clear: both;
+    margin: 0;
+    padding: 0;
+  }
+}
+/* line 257, ../sass/components/_body.scss */
+.home-page .calendar {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+/* line 264, ../sass/components/_body.scss */
+.home-page .calendar iframe, .home-page .calendar object, .home-page .calendar embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 273, ../sass/components/_body.scss */
+.home-page .calendar .cal-frame {
+  border-width: 0;
+  width: 800;
+  height: 600;
+}
+
+/* line 3, ../sass/components/_about-body.scss */
+.about-page ul li {
+  list-style-type: none;
+}
+/* line 5, ../sass/components/_about-body.scss */
+.about-page ul li span {
+  font-weight: bold;
+}
+/* line 8, ../sass/components/_about-body.scss */
+.about-page ul li a {
+  font-weight: bold;
+}
