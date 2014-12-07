@@ -767,16 +767,16 @@ header .head ul li :hover {
 .home-page .cal-replacer {
   width: 100%;
   height: auto;
-  visibility: hidden;
+  display: none;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* line 295, ../sass/components/_home-body.scss */
   .home-page .calendar {
-    visibility: hidden;
+    display: none;
   }
   /* line 298, ../sass/components/_home-body.scss */
   .home-page .cal-replacer {
-    visibility: visible;
+    display: inline;
   }
 }
 

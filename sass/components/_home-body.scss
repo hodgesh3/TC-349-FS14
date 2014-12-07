@@ -289,14 +289,14 @@ p{
 .cal-replacer{
     width:100%;
     height:auto;
-    visibility:hidden;
+    display:none;
   }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .calendar{
-      visibility:hidden;
+      display:none;
     }
     .cal-replacer{
-      visibility:visible;
+      display:inline;
     }
 }
 }
