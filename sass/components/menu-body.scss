@@ -1,15 +1,32 @@
-.menu-page{
-  .welcome-aboard{
-    margin-left:5%;
+.menu{
+  ul{
+    display:none;
+    li{
+      margin-left:8%;
+    }
+  }
+  h1{
+    margin-left:3%;
+    padding-top:3%;
+    display:inline-block;
+  }
+  p{
+    margin-top:3%;
+    display:inline-block;
+    font-weight:bold;
+    font-size:1.5em;
+  }
+  h3{
+    color:green;
+    text-decoration:underline;
+    margin-left:8%;
     margin-top:2%;
   }
-  .green-seas{
-    margin-left:5%;
-    margin-top:2%;
+  h3:hover{
+    color:black;
+    cursor:pointer;
   }
   .lighter-winds{
-    margin-left:5%;
-    margin-top:2%;
     margin-bottom:2%;
     padding-bottom:2%;
   }

@@ -14,7 +14,21 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/application.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script>
+			$(document).ready(function(){
+			  $(".welcome-aboard").click(function(){
+			    $(".w-a-menu").toggle();
+			  });
+			  $(".green-seas").click(function(){
+			    $(".g-s-menu").toggle();
+			  });
+			  $(".lighter-winds").click(function(){
+			    $(".l-w-menu").toggle();
+			  });
+			});
+		</script>
     </head>
     <body class="menu-page">
         <!--[if lt IE 7]>
@@ -35,32 +49,35 @@
         	</ul>
         	</div>
         </header>
-        <div class="welcome-aboard">
-        	<h3>Welcome Aboard</h3>
-        	<ul>
-        		<li> Menu Item</li>
-        		<li> Menu Item</li>
-        		<li> Menu Item</li>
-        		<li> Menu Item</li>
-        	</ul>
-        </div>
-        <div class="green-seas">
-        	<h3>Green Seas</h3>
-        	<ul>
-        		<li> Menu Item</li>
-        		<li> Menu Item</li>
-        		<li> Menu Item</li>
-        		<li> Menu Item</li>
-        	</ul>
-        </div>
-        <div class="lighter-winds">
-        	<h3>Lighter Winds</h3>
-        	<ul>
-        		<li> Menu Item</li>
-        		<li> Menu Item</li>
-        		<li> Menu Item</li>
-        		<li> Menu Item</li>
-        	</ul>
+        <div class="menu">
+        	<h1>Menu:</h1> <p>Click category to toggle menu items</p>
+	        <div class="welcome-aboard">
+				<h3>Welcome Aboard</h3>
+				<ul class="w-a-menu">
+	        		<li> Menu Item</li>
+	        		<li> Menu Item</li>
+	        		<li> Menu Item</li>
+	        		<li> Menu Item</li>
+	        	</ul>
+	        </div>
+	        <div class="green-seas">
+	        	<h3>Green Seas</h3>
+	        	<ul class="g-s-menu">
+	        		<li> Menu Item</li>
+	        		<li> Menu Item</li>
+	        		<li> Menu Item</li>
+	        		<li> Menu Item</li>
+	        	</ul>
+	        </div>
+	        <div class="lighter-winds">
+	        	<h3>Lighter Winds</h3>
+	        	<ul class="l-w-menu">
+	        		<li> Menu Item</li>
+	        		<li> Menu Item</li>
+	        		<li> Menu Item</li>
+	        		<li> Menu Item</li>
+	        	</ul>
+	        </div>
         </div>
 				
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
