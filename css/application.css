@@ -773,10 +773,11 @@ header .head ul li :hover {
 .home-page .cal-replacer {
   width: 100%;
   height: auto;
+  clear: both;
   display: none;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 298, ../sass/components/_home-body.scss */
+  /* line 299, ../sass/components/_home-body.scss */
   .home-page .cal-replacer .cal-replacer {
     display: block;
   }
