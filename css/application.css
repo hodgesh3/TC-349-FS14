@@ -761,14 +761,78 @@ header .head ul li :hover {
 }
 
 /* line 3, ../sass/components/_about-body.scss */
-.about-page ul li {
+.about-page .info {
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+/* line 10, ../sass/components/_about-body.scss */
+.about-page .info ul li {
   list-style-type: none;
+  margin-bottom: 2%;
 }
-/* line 5, ../sass/components/_about-body.scss */
-.about-page ul li span {
+/* line 13, ../sass/components/_about-body.scss */
+.about-page .info ul li span {
   font-weight: bold;
 }
-/* line 8, ../sass/components/_about-body.scss */
-.about-page ul li a {
+/* line 16, ../sass/components/_about-body.scss */
+.about-page .info ul li a {
+  color: blue;
   font-weight: bold;
+  text-decoration: none;
+}
+/* line 24, ../sass/components/_about-body.scss */
+.about-page p {
+  margin: 0;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+/* line 2, ../sass/components/events-body.scss */
+.events-page h1 {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+/* line 7, ../sass/components/events-body.scss */
+.events-page h1 img {
+  width: 30%;
+  height: auto;
+  margin: 0;
+  float: right;
+  display: inline-block;
+}
+/* line 16, ../sass/components/events-body.scss */
+.events-page .com-night h3 {
+  margin-top: 10%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+/* line 23, ../sass/components/events-body.scss */
+.events-page .com-text {
+  margin-top: 0;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 3%;
+  padding-bottom: 15%;
+}
+
+/* line 2, ../sass/components/menu-body.scss */
+.menu-page .welcome-aboard {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+/* line 6, ../sass/components/menu-body.scss */
+.menu-page .green-seas {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+/* line 10, ../sass/components/menu-body.scss */
+.menu-page .lighter-winds {
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
 }

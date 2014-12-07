@@ -1,14 +1,29 @@
 .about-page{
-ul{
-  li{
-  list-style-type:none;
-  span{
-    font-weight:bold;
-  }
-  a{
-    font-weight:bold;
-  }
-  }
-}
-}
 
+  .info{
+    margin-bottom:5%;
+    margin-right:5%;
+    margin-left:5%;
+  
+  
+  ul{
+    li{
+      list-style-type:none;
+      margin-bottom:2%;
+    span{
+      font-weight:bold;
+    }
+    a{
+      color:blue;
+      font-weight:bold;
+      text-decoration:none;
+    }
+    }
+  }
+  }
+  p{
+    margin:0;
+    padding-top:2%;
+    padding-bottom:5%;
+  }
+}
