@@ -840,11 +840,12 @@ header .head ul li :hover {
 .menu p {
   margin: 0;
   margin-top: 3%;
+  margin-left: 4%;
   display: inline-block;
   font-weight: bold;
   font-size: 1.5em;
 }
-/* line 22, ../sass/components/menu-body.scss */
+/* line 23, ../sass/components/menu-body.scss */
 .menu h3 {
   color: green;
   text-decoration: underline;
@@ -852,12 +853,12 @@ header .head ul li :hover {
   margin-left: 8%;
   margin-top: 2%;
 }
-/* line 29, ../sass/components/menu-body.scss */
+/* line 30, ../sass/components/menu-body.scss */
 .menu h3:hover {
   color: black;
   cursor: pointer;
 }
-/* line 33, ../sass/components/menu-body.scss */
+/* line 34, ../sass/components/menu-body.scss */
 .menu .lighter-winds {
   margin-bottom: 2%;
   padding-bottom: 2%;
