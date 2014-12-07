@@ -256,8 +256,6 @@ p{
   margin-bottom:5%;
   
 .cal-replacer{
-    width:100%;
-    height:auto;
     visibility:hidden;
   }
 .calendar {
@@ -289,11 +287,23 @@ p{
     margin-bottom:3%;
     padding-bottom:3%;
   }
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen (min-device-width : 320px){
     .calendar{
       visibility:hidden;
     }
     .cal-replacer{
+      width:320px;
+      height:auto;
+      visibility:visible;
+    }
+}
+@media only screen (max-device-width : 480px) {
+    .calendar{
+      visibility:hidden;
+    }
+    .cal-replacer{
+      width:480px;
+      height:auto;
       visibility:visible;
     }
 }
