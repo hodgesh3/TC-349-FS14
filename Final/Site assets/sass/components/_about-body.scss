@@ -1,0 +1,36 @@
+.about-page{
+
+  .info{
+    
+    h1{
+      color:green;
+      margin-top:2%;
+      margin-bottom:1%;
+      margin-left:3%;
+      margin-right:3%;
+    }
+  
+  .contact-info{
+    li{
+      list-style-type:none;
+      margin-bottom:2%;
+    span{
+      font-weight:bold;
+    }
+    a{
+      color:blue;
+      font-weight:bold;
+      text-decoration:none;
+    }
+    }
+  }
+  }
+  .about-text{
+    margin:0;
+    margin-left:4%;
+    margin-right:4%;
+    margin-bottom:4%;
+    padding-top:2%;
+    padding-bottom:5%;
+  }
+}

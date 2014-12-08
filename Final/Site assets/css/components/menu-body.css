@@ -1,0 +1,52 @@
+/* line 4, ../../sass/components/menu-body.scss */
+.menu-page .menu ul {
+  display: none;
+}
+/* line 6, ../../sass/components/menu-body.scss */
+.menu-page .menu ul li {
+  margin-left: 8%;
+  list-style-type: none;
+  margin-top: 1%;
+}
+/* line 12, ../../sass/components/menu-body.scss */
+.menu-page .menu .menu-header {
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+/* line 19, ../../sass/components/menu-body.scss */
+.menu-page .menu h1 {
+  color: green;
+  display: inline-block;
+}
+/* line 23, ../../sass/components/menu-body.scss */
+.menu-page .menu p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: inline;
+}
+/* line 30, ../../sass/components/menu-body.scss */
+.menu-page .menu h3 {
+  color: green;
+  text-decoration: underline;
+  font-style: italic;
+  padding: 0;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  width: 17%;
+}
+/* line 40, ../../sass/components/menu-body.scss */
+.menu-page .menu h3:hover {
+  color: black;
+  cursor: pointer;
+}
+/* line 44, ../../sass/components/menu-body.scss */
+.menu-page .menu .lighter-winds {
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+}
