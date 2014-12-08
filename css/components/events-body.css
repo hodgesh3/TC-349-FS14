@@ -14,18 +14,18 @@
   float: right;
   display: inline-block;
 }
-/* line 17, ../../sass/components/events-body.scss */
-.events-page .com-night h3 {
+/* line 16, ../../sass/components/events-body.scss */
+.events-page h3 {
   margin-top: 10%;
   margin-bottom: 1%;
   margin-left: 5%;
   margin-right: 3%;
 }
-/* line 24, ../../sass/components/events-body.scss */
-.events-page .com-text {
+/* line 23, ../../sass/components/events-body.scss */
+.events-page p {
   margin-top: 0;
   margin-bottom: 1%;
   margin-left: 5%;
   margin-right: 3%;
-  padding-bottom: 15%;
+  padding-bottom: 5%;
 }
