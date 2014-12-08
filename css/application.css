@@ -691,11 +691,11 @@ header .head ul li :hover {
   width: 100%;
   height: auto;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 320px) and (max-device-width: 480px) {
   /* line 213, ../sass/components/_home-body.scss */
   .home-page .cal-replacer {
     float: right;
-    isplay: block;
+    display: block;
   }
 }
 /* line 224, ../sass/components/_home-body.scss */
