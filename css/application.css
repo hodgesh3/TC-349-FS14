@@ -683,78 +683,44 @@ header .head ul li :hover {
   padding: 10px;
 }
 /* line 213, ../sass/components/_home-body.scss */
+.home-page .cal-replacer {
+  display: none;
+}
+/* line 215, ../sass/components/_home-body.scss */
+.home-page .cal-replacer .cal-image {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* line 213, ../sass/components/_home-body.scss */
+  .home-page .cal-replacer {
+    float: right;
+    isplay: block;
+  }
+}
+/* line 224, ../sass/components/_home-body.scss */
 .home-page .container {
   padding-bottom: 5%;
   margin-bottom: 5%;
-}
-/* line 218, ../sass/components/_home-body.scss */
-.home-page .map-container {
-  width: 50%;
-  float: left;
-  padding-bottom: 5%;
-  margin-bottom: 5%;
+  clear: both;
 }
 @media (max-width: 960px) {
-  /* line 218, ../sass/components/_home-body.scss */
-  .home-page .map-container {
-    width: 100%;
-    float: none;
-    margin: 0;
-    padding: 0;
+  /* line 224, ../sass/components/_home-body.scss */
+  .home-page .container {
+    margin-bottom: 3%;
+    padding-bottom: 3%;
   }
 }
-/* line 231, ../sass/components/_home-body.scss */
-.home-page .map {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-}
-/* line 238, ../sass/components/_home-body.scss */
-.home-page .map iframe, .home-page .map object, .home-page .map embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-/* line 245, ../sass/components/_home-body.scss */
-.home-page .map .map-frame {
-  width: 600;
-  height: 450;
-  border: 0;
-}
-/* line 252, ../sass/components/_home-body.scss */
-.home-page .cal-container {
+/* line 234, ../sass/components/_home-body.scss */
+.home-page .container .map-container {
   width: 50%;
   float: right;
   padding-bottom: 5%;
   margin-bottom: 5%;
 }
-/* line 258, ../sass/components/_home-body.scss */
-.home-page .cal-container .calendar {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-}
-/* line 265, ../sass/components/_home-body.scss */
-.home-page .cal-container iframe, .home-page .cal-container object, .home-page .cal-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-/* line 274, ../sass/components/_home-body.scss */
-.home-page .cal-container .cal-frame {
-  border-width: 0;
-  width: 800;
-  height: 600;
-}
 @media (max-width: 960px) {
-  /* line 252, ../sass/components/_home-body.scss */
-  .home-page .cal-container {
+  /* line 234, ../sass/components/_home-body.scss */
+  .home-page .container .map-container {
     width: 100%;
     clear: both;
     margin: 0;
@@ -763,23 +729,75 @@ header .head ul li :hover {
     padding-bottom: 3%;
   }
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 288, ../sass/components/_home-body.scss */
-  .home-page .cal-container .calendar {
-    display: none;
+/* line 249, ../sass/components/_home-body.scss */
+.home-page .container .map {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+/* line 256, ../sass/components/_home-body.scss */
+.home-page .container .map iframe, .home-page .container .map object, .home-page .container .map embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 263, ../sass/components/_home-body.scss */
+.home-page .container .map .map-frame {
+  width: 600;
+  height: 450;
+  border: 0;
+}
+/* line 270, ../sass/components/_home-body.scss */
+.home-page .container .cal-container {
+  width: 50%;
+  float: left;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+/* line 276, ../sass/components/_home-body.scss */
+.home-page .container .cal-container .calendar {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+/* line 283, ../sass/components/_home-body.scss */
+.home-page .container .cal-container iframe, .home-page .container .cal-container object, .home-page .container .cal-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 292, ../sass/components/_home-body.scss */
+.home-page .container .cal-container .cal-frame {
+  border-width: 0;
+  width: 800;
+  height: 600;
+}
+@media (max-width: 960px) {
+  /* line 270, ../sass/components/_home-body.scss */
+  .home-page .container .cal-container {
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 0;
   }
 }
-/* line 293, ../sass/components/_home-body.scss */
-.home-page .cal-replacer {
-  width: 100%;
-  height: auto;
-  clear: both;
-  display: none;
-}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 299, ../sass/components/_home-body.scss */
-  .home-page .cal-replacer .cal-replacer {
-    display: block;
+  /* line 270, ../sass/components/_home-body.scss */
+  .home-page .container .cal-container {
+    width: 100%;
+    clear: both;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 308, ../sass/components/_home-body.scss */
+  .home-page .container .cal-container .calendar {
+    display: none;
   }
 }
 

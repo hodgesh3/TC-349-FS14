@@ -210,21 +210,39 @@ p{
     }
     }
 }
+.cal-replacer{
+    display:none;
+    .cal-image{
+      width:100%;
+      height:auto;
+    }
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    float:right;
+     isplay:block;
+    }
+}
 .container{
   padding-bottom:5%;
   margin-bottom:5%;
-}
+  clear:both;
+  @media (max-width:960px){
+    margin-bottom:3%;
+    padding-bottom:3%;
+  }
+
 
 .map-container{
   width:50%;
-  float:left;
+  float:right;
   padding-bottom:5%;
   margin-bottom:5%;
   @media (max-width:960px){
     width:100%;
-    float:none;
+    clear:both;
     margin:0;
     padding:0;
+    margin-bottom:3%;
+    padding-bottom:3%;
   }
 }
 
@@ -251,7 +269,7 @@ p{
 
 .cal-container{
   width:50%;
-  float:right;
+  float:left;
   padding-bottom:5%;
   margin-bottom:5%;
 
@@ -278,28 +296,19 @@ p{
   }
   @media (max-width:960px){
     width:100%;
+    float:none;
+    margin:0;
+    padding:0;
+  }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    width:100%;
     clear:both;
     margin:0;
     padding:0;
-    margin-bottom:3%;
-    padding-bottom:3%;
-  }
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .calendar{
       display:none;
     }
   }
 }
-.cal-replacer{
-    width:100%;
-    height:auto;
-    clear:both;
-    display:none;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-      .cal-replacer{
-        display:block;
-        
-      }
-  }
 }
 }
