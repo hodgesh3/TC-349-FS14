@@ -409,8 +409,9 @@ header .head ul li {
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 4%;
+  padding-bottom: 2%;
 }
-/* line 45, ../sass/components/_header.scss */
+/* line 46, ../sass/components/_header.scss */
 header .head ul li a {
   width: 100%;
   text-align: center;
@@ -419,30 +420,30 @@ header .head ul li a {
   color: #fff;
   text-decoration: none;
 }
-/* line 53, ../sass/components/_header.scss */
+/* line 54, ../sass/components/_header.scss */
 header .head ul li :hover {
   background: #52b152;
 }
 @media screen and (max-width: 943px) {
-  /* line 60, ../sass/components/_header.scss */
+  /* line 61, ../sass/components/_header.scss */
   header .head h1 {
     font-size: 28px;
   }
 }
 @media screen and (max-width: 827px) {
-  /* line 65, ../sass/components/_header.scss */
+  /* line 66, ../sass/components/_header.scss */
   header .head h1 {
     font-size: 24px;
   }
 }
 @media screen and (max-width: 711px) {
-  /* line 70, ../sass/components/_header.scss */
+  /* line 71, ../sass/components/_header.scss */
   header .head .logo {
     display: none;
   }
 }
 @media screen and (max-width: 340px) {
-  /* line 78, ../sass/components/_header.scss */
+  /* line 79, ../sass/components/_header.scss */
   header .head ul li a {
     font-size: 1em;
     line-height: 30px;
@@ -916,12 +917,18 @@ header .head ul li :hover {
   margin-top: 2%;
   width: 19%;
 }
-/* line 44, ../sass/components/_menu-body.scss */
+@media (max-width: 320px) {
+  /* line 34, ../sass/components/_menu-body.scss */
+  .menu-page .menu h3 {
+    width: 50%;
+  }
+}
+/* line 47, ../sass/components/_menu-body.scss */
 .menu-page .menu h3:hover {
   color: black;
   cursor: pointer;
 }
-/* line 48, ../sass/components/_menu-body.scss */
+/* line 51, ../sass/components/_menu-body.scss */
 .menu-page .menu .galley {
   margin-bottom: 2%;
   padding-bottom: 2%;
