@@ -40,6 +40,9 @@
       margin-right:4%;
       margin-top:2%;
       width:19%;
+      @media (max-width:320px){
+          width:50%;
+      }
     }
     h3:hover{
       color:black;

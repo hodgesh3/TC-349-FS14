@@ -1,4 +1,4 @@
-/* line 55, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 55, ../sass/components/_normalize.scss */
 article,
 aside,
 details,
@@ -13,7 +13,7 @@ summary {
   display: block;
 }
 
-/* line 63, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 63, ../sass/components/_normalize.scss */
 audio,
 canvas,
 video {
@@ -22,18 +22,18 @@ video {
   *zoom: 1;
 }
 
-/* line 74, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 74, ../sass/components/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 84, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 84, ../sass/components/_normalize.scss */
 [hidden], template {
   display: none;
 }
 
-/* line 97, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 97, ../sass/components/_normalize.scss */
 html {
   font-size: 100%;
   background: white;
@@ -42,7 +42,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-/* line 113, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 113, ../sass/components/_normalize.scss */
 html,
 button,
 input,
@@ -51,94 +51,94 @@ textarea {
   font-family: sans-serif;
 }
 
-/* line 119, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 119, ../sass/components/_normalize.scss */
 body {
   margin: 0;
 }
 
-/* line 132, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 132, ../sass/components/_normalize.scss */
 a {
   background: transparent;
 }
-/* line 139, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 139, ../sass/components/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
-/* line 146, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 146, ../sass/components/_normalize.scss */
 a:hover, a:active {
   outline: 0;
 }
 
-/* line 159, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 159, ../sass/components/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 164, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 164, ../sass/components/_normalize.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-/* line 169, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 169, ../sass/components/_normalize.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-/* line 174, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 174, ../sass/components/_normalize.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-/* line 179, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 179, ../sass/components/_normalize.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-/* line 184, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 184, ../sass/components/_normalize.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0;
 }
 
-/* line 192, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 192, ../sass/components/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 199, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 199, ../sass/components/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 204, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 204, ../sass/components/_normalize.scss */
 blockquote {
   margin: 1em 40px;
 }
 
-/* line 211, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 211, ../sass/components/_normalize.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 217, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 217, ../sass/components/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 225, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 225, ../sass/components/_normalize.scss */
 p,
 pre {
   margin: 1em 0;
 }
 
-/* line 236, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 236, ../sass/components/_normalize.scss */
 code,
 kbd,
 pre,
@@ -148,35 +148,35 @@ samp {
   font-size: 1em;
 }
 
-/* line 246, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 246, ../sass/components/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 254, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 254, ../sass/components/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-/* line 263, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 263, ../sass/components/_normalize.scss */
 q {
   quotes: none;
 }
 
-/* line 271, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 271, ../sass/components/_normalize.scss */
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 279, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 279, ../sass/components/_normalize.scss */
 small {
   font-size: 80%;
 }
 
-/* line 287, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 287, ../sass/components/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -185,17 +185,17 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 294, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 294, ../sass/components/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 298, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 298, ../sass/components/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 311, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 311, ../sass/components/_normalize.scss */
 dl,
 menu,
 ol,
@@ -203,53 +203,53 @@ ul {
   margin: 1em 0;
 }
 
-/* line 317, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 317, ../sass/components/_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
 
-/* line 326, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 326, ../sass/components/_normalize.scss */
 menu,
 ol,
 ul {
   padding: 0 0 0 40px;
 }
 
-/* line 335, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 335, ../sass/components/_normalize.scss */
 nav ul,
 nav ol {
   list-style-image: none;
 }
 
-/* line 350, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 350, ../sass/components/_normalize.scss */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 359, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 359, ../sass/components/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 369, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 369, ../sass/components/_normalize.scss */
 figure {
   margin: 0;
 }
 
-/* line 379, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 379, ../sass/components/_normalize.scss */
 form {
   margin: 0;
 }
 
-/* line 386, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 386, ../sass/components/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 397, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 397, ../sass/components/_normalize.scss */
 legend {
   border: 0;
   padding: 0;
@@ -257,7 +257,7 @@ legend {
   *margin-left: -7px;
 }
 
-/* line 414, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 414, ../sass/components/_normalize.scss */
 button,
 input,
 select,
@@ -269,18 +269,18 @@ textarea {
   *vertical-align: middle;
 }
 
-/* line 426, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 426, ../sass/components/_normalize.scss */
 button, input {
   line-height: normal;
 }
 
-/* line 436, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 436, ../sass/components/_normalize.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 451, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 451, ../sass/components/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -290,42 +290,42 @@ input[type="submit"] {
   *overflow: visible;
 }
 
-/* line 462, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 462, ../sass/components/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
-/* line 470, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 470, ../sass/components/_normalize.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 479, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 479, ../sass/components/_normalize.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 490, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 490, ../sass/components/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 498, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 498, ../sass/components/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
-/* line 507, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 507, ../sass/components/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-/* line 517, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_normalize.scss */
+/* line 517, ../sass/components/_normalize.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
@@ -333,7 +333,7 @@ input[type="checkbox"], input[type="radio"] {
   *width: 13px;
 }
 
-/* line 1, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_setup.scss */
+/* line 1, ../sass/components/_setup.scss */
 html {
   font-family: arial;
   background: url("img/black-Linen.png");
@@ -342,7 +342,7 @@ html {
   margin: 0;
 }
 
-/* line 9, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_setup.scss */
+/* line 9, ../sass/components/_setup.scss */
 body {
   width: 100%;
   max-width: 960px;
@@ -351,17 +351,17 @@ body {
   background: white;
 }
 
-/* line 1, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+/* line 1, ../sass/components/_header.scss */
 header {
   margin-top: 3%;
 }
 @media (max-width: 711px) {
-  /* line 1, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+  /* line 1, ../sass/components/_header.scss */
   header {
     margin: 0;
   }
 }
-/* line 6, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+/* line 6, ../sass/components/_header.scss */
 header .head {
   width: 100%;
   overflow: auto;
@@ -375,7 +375,7 @@ header .head {
   background-image: linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 25%, #002400 100%);
   text-align: center;
 }
-/* line 14, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+/* line 14, ../sass/components/_header.scss */
 header .head .logo {
   float: left;
   width: 30%;
@@ -384,7 +384,7 @@ header .head .logo {
   min-height: 112px;
   margin-right: 2%;
 }
-/* line 22, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+/* line 22, ../sass/components/_header.scss */
 header .head .headline {
   position: relative;
   color: white;
@@ -393,14 +393,14 @@ header .head .headline {
   margin-left: 5%;
   margin-right: 5%;
 }
-/* line 32, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+/* line 32, ../sass/components/_header.scss */
 header .head ul {
   list-style-type: none;
   width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 37, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+/* line 37, ../sass/components/_header.scss */
 header .head ul li {
   display: inline-block;
   color: white;
@@ -411,7 +411,7 @@ header .head ul li {
   padding-top: 4%;
   padding-bottom: 2%;
 }
-/* line 46, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+/* line 46, ../sass/components/_header.scss */
 header .head ul li a {
   width: 100%;
   text-align: center;
@@ -420,37 +420,37 @@ header .head ul li a {
   color: #fff;
   text-decoration: none;
 }
-/* line 54, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+/* line 54, ../sass/components/_header.scss */
 header .head ul li :hover {
   background: #52b152;
 }
 @media screen and (max-width: 943px) {
-  /* line 61, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+  /* line 61, ../sass/components/_header.scss */
   header .head h1 {
     font-size: 28px;
   }
 }
 @media screen and (max-width: 827px) {
-  /* line 66, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+  /* line 66, ../sass/components/_header.scss */
   header .head h1 {
     font-size: 24px;
   }
 }
 @media screen and (max-width: 711px) {
-  /* line 71, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+  /* line 71, ../sass/components/_header.scss */
   header .head .logo {
     display: none;
   }
 }
 @media screen and (max-width: 340px) {
-  /* line 79, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_header.scss */
+  /* line 79, ../sass/components/_header.scss */
   header .head ul li a {
     font-size: 1em;
     line-height: 30px;
   }
 }
 
-/* line 2, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 2, ../sass/components/_home-body.scss */
 .home-page h1 {
   margin-top: 2%;
   margin-bottom: 1%;
@@ -458,7 +458,7 @@ header .head ul li :hover {
   margin-right: 3%;
   color: green;
 }
-/* line 9, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 9, ../sass/components/_home-body.scss */
 .home-page h1 img {
   width: 35%;
   height: auto;
@@ -468,13 +468,13 @@ header .head ul li :hover {
   float: right;
   display: inline-block;
 }
-/* line 19, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 19, ../sass/components/_home-body.scss */
 .home-page p {
   margin-left: 5%;
   margin-right: 5%;
   text-align: justify;
 }
-/* line 25, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 25, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper {
   position: relative;
   margin: 0 auto;
@@ -482,14 +482,14 @@ header .head ul li :hover {
   padding: 0;
   *zoom: 1;
 }
-/* line 32, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 32, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper img {
   display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 38, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 38, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper li {
   background-color: #45484d;
   *zoom: 1;
@@ -500,7 +500,7 @@ header .head ul li :hover {
   background-image: -o-linear-gradient(top, #45484d 0%, #000000 100%);
   background-image: linear-gradient(top, #45484d 0%, #000000 100%);
 }
-/* line 43, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 43, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-viewport {
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
@@ -509,20 +509,20 @@ header .head ul li :hover {
   -o-transform: translatez(0);
   transform: translatez(0);
 }
-/* line 51, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 51, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-auto {
   position: absolute;
   bottom: -30px;
   width: 100%;
 }
-/* line 56, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 56, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-pager {
   position: absolute;
   bottom: -30px;
   width: 100%;
   visibility: hidden;
 }
-/* line 62, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 62, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-loading {
   min-height: 50px;
   background: url(images/bx_loader.gif) center center no-repeat white;
@@ -533,7 +533,7 @@ header .head ul li :hover {
   left: 0;
   z-index: 2000;
 }
-/* line 73, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 73, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-pager {
   text-align: center;
   font-size: .85em;
@@ -542,25 +542,25 @@ header .head ul li :hover {
   color: #666;
   padding-top: 20px;
 }
-/* line 80, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 80, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-pager .bx-pager-item {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 86, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 86, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-auto {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 91, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 91, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-auto-item {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
-/* line 96, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 96, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-player.bx-default-pager {
   background: #666;
   text-indent: -9999px;
@@ -573,37 +573,37 @@ header .head ul li :hover {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 107, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 107, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-player.bx-default-pager a.active {
   background: #000;
 }
-/* line 110, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 110, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-player.bx-default-pager a:hover {
   background: #000;
 }
-/* line 116, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 116, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-prev {
   left: 10px;
   margin: 0;
   margin-left: 10px;
   background: url(images/controls.png) no-repeat 0 -32px;
 }
-/* line 121, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 121, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-prev .bx-prev:hover {
   background-position: 0 0;
 }
-/* line 125, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 125, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-next {
   right: 10px;
   margin-right: 10px;
   background: url(images/controls.png) no-repeat -43px -32px;
   margin: 0;
 }
-/* line 130, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 130, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-next .bx-next:hover {
   background-position: -43px 0;
 }
-/* line 135, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 135, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-direction a {
   position: absolute;
   top: 50%;
@@ -614,15 +614,15 @@ header .head ul li :hover {
   text-indent: -9999px;
   z-index: 9999;
 }
-/* line 145, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 145, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
 }
-/* line 149, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 149, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls-auto {
   text-align: center;
 }
-/* line 152, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 152, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-start {
   display: block;
   text-indent: -9999px;
@@ -632,15 +632,15 @@ header .head ul li :hover {
   background: url("images/controls.png") -86px -11px no-repeat;
   margin: 0 3px;
 }
-/* line 161, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 161, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-start .bx-start.active {
   background-position: -86px 0;
 }
-/* line 164, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 164, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-start .bx-start:hover {
   background-position: -86px 0;
 }
-/* line 168, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 168, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-stop {
   display: block;
   text-indent: -9999px;
@@ -650,25 +650,25 @@ header .head ul li :hover {
   background: url(images/controls.png) -86px -44px no-repeat;
   margin: 0 3px;
 }
-/* line 177, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 177, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-stop .bx-stop.active {
   background-position: -86px -33px;
 }
-/* line 180, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 180, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-stop .bx-stop:hover {
   background-position: -86px -33px;
 }
-/* line 185, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 185, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
   text-align: left;
   width: 80%;
 }
-/* line 191, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 191, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
   right: 0;
   width: 35px;
 }
-/* line 196, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 196, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-caption {
   position: absolute;
   bottom: 0;
@@ -677,7 +677,7 @@ header .head ul li :hover {
   background: rgba(80, 80, 80, 0.75);
   width: 100%;
 }
-/* line 203, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 203, ../sass/components/_home-body.scss */
 .home-page .slider .bx-wrapper .bx-caption span {
   color: #fff;
   font-family: Arial;
@@ -685,36 +685,36 @@ header .head ul li :hover {
   font-size: .85em;
   padding: 10px;
 }
-/* line 213, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 213, ../sass/components/_home-body.scss */
 .home-page .cal-replacer {
   display: none;
 }
-/* line 215, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 215, ../sass/components/_home-body.scss */
 .home-page .cal-replacer .cal-image {
   width: 100%;
   height: auto;
 }
 @media only screen and (max-device-width: 320px) and (max-device-width: 480px) {
-  /* line 213, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+  /* line 213, ../sass/components/_home-body.scss */
   .home-page .cal-replacer {
     float: right;
     display: block;
   }
 }
-/* line 224, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 224, ../sass/components/_home-body.scss */
 .home-page .container {
   padding-bottom: 5%;
   margin-bottom: 5%;
   clear: both;
 }
 @media (max-width: 960px) {
-  /* line 224, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+  /* line 224, ../sass/components/_home-body.scss */
   .home-page .container {
     margin-bottom: 3%;
     padding-bottom: 3%;
   }
 }
-/* line 234, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 234, ../sass/components/_home-body.scss */
 .home-page .container .map-container {
   width: 50%;
   float: right;
@@ -722,7 +722,7 @@ header .head ul li :hover {
   margin-bottom: 5%;
 }
 @media (max-width: 960px) {
-  /* line 234, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+  /* line 234, ../sass/components/_home-body.scss */
   .home-page .container .map-container {
     width: 100%;
     clear: both;
@@ -732,14 +732,14 @@ header .head ul li :hover {
     padding-bottom: 3%;
   }
 }
-/* line 249, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 249, ../sass/components/_home-body.scss */
 .home-page .container .map {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 256, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 256, ../sass/components/_home-body.scss */
 .home-page .container .map iframe, .home-page .container .map object, .home-page .container .map embed {
   position: absolute;
   top: 0;
@@ -747,27 +747,27 @@ header .head ul li :hover {
   width: 100%;
   height: 100%;
 }
-/* line 263, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 263, ../sass/components/_home-body.scss */
 .home-page .container .map .map-frame {
   width: 600;
   height: 450;
   border: 0;
 }
-/* line 270, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 270, ../sass/components/_home-body.scss */
 .home-page .container .cal-container {
   width: 50%;
   float: left;
   padding-bottom: 5%;
   margin-bottom: 5%;
 }
-/* line 276, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 276, ../sass/components/_home-body.scss */
 .home-page .container .cal-container .calendar {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 283, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 283, ../sass/components/_home-body.scss */
 .home-page .container .cal-container iframe, .home-page .container .cal-container object, .home-page .container .cal-container embed {
   position: absolute;
   top: 0;
@@ -775,14 +775,14 @@ header .head ul li :hover {
   width: 100%;
   height: 100%;
 }
-/* line 292, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+/* line 292, ../sass/components/_home-body.scss */
 .home-page .container .cal-container .cal-frame {
   border-width: 0;
   width: 800;
   height: 600;
 }
 @media (max-width: 960px) {
-  /* line 270, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+  /* line 270, ../sass/components/_home-body.scss */
   .home-page .container .cal-container {
     width: 100%;
     float: none;
@@ -791,20 +791,20 @@ header .head ul li :hover {
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 270, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+  /* line 270, ../sass/components/_home-body.scss */
   .home-page .container .cal-container {
     width: 100%;
     clear: both;
     margin: 0;
     padding: 0;
   }
-  /* line 308, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_home-body.scss */
+  /* line 308, ../sass/components/_home-body.scss */
   .home-page .container .cal-container .calendar {
     display: none;
   }
 }
 
-/* line 5, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_about-body.scss */
+/* line 5, ../sass/components/_about-body.scss */
 .about-page .info h1 {
   color: green;
   margin-top: 2%;
@@ -812,22 +812,22 @@ header .head ul li :hover {
   margin-left: 3%;
   margin-right: 3%;
 }
-/* line 14, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_about-body.scss */
+/* line 14, ../sass/components/_about-body.scss */
 .about-page .info .contact-info li {
   list-style-type: none;
   margin-bottom: 2%;
 }
-/* line 17, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_about-body.scss */
+/* line 17, ../sass/components/_about-body.scss */
 .about-page .info .contact-info li span {
   font-weight: bold;
 }
-/* line 20, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_about-body.scss */
+/* line 20, ../sass/components/_about-body.scss */
 .about-page .info .contact-info li a {
   color: blue;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 28, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_about-body.scss */
+/* line 28, ../sass/components/_about-body.scss */
 .about-page .about-text {
   margin: 0;
   margin-left: 4%;
@@ -837,7 +837,7 @@ header .head ul li :hover {
   padding-bottom: 5%;
 }
 
-/* line 2, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_events-body.scss */
+/* line 2, ../sass/components/_events-body.scss */
 .events-page h1 {
   margin-top: 2%;
   margin-bottom: 1%;
@@ -845,7 +845,7 @@ header .head ul li :hover {
   margin-right: 3%;
   color: green;
 }
-/* line 8, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_events-body.scss */
+/* line 8, ../sass/components/_events-body.scss */
 .events-page h1 img {
   width: 30%;
   height: auto;
@@ -853,14 +853,14 @@ header .head ul li :hover {
   float: right;
   display: inline-block;
 }
-/* line 16, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_events-body.scss */
+/* line 16, ../sass/components/_events-body.scss */
 .events-page h3 {
   margin-top: 10%;
   margin-bottom: 1%;
   margin-left: 5%;
   margin-right: 3%;
 }
-/* line 23, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_events-body.scss */
+/* line 23, ../sass/components/_events-body.scss */
 .events-page p {
   margin-top: 0;
   margin-bottom: 1%;
@@ -869,11 +869,11 @@ header .head ul li :hover {
   padding-bottom: 5%;
 }
 
-/* line 3, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_menu-body.scss */
+/* line 3, ../sass/components/_menu-body.scss */
 .menu-page .menu ul {
   display: none;
 }
-/* line 5, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_menu-body.scss */
+/* line 5, ../sass/components/_menu-body.scss */
 .menu-page .menu ul li {
   margin-top: 1%;
   margin-left: 8%;
@@ -881,11 +881,11 @@ header .head ul li :hover {
   list-style-type: none;
   text-align: justify;
 }
-/* line 11, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_menu-body.scss */
+/* line 11, ../sass/components/_menu-body.scss */
 .menu-page .menu ul li em {
   font-weight: bold;
 }
-/* line 16, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_menu-body.scss */
+/* line 16, ../sass/components/_menu-body.scss */
 .menu-page .menu .menu-header {
   text-align: center;
   margin-left: 3%;
@@ -893,12 +893,12 @@ header .head ul li :hover {
   padding-right: 3%;
   padding-left: 3%;
 }
-/* line 23, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_menu-body.scss */
+/* line 23, ../sass/components/_menu-body.scss */
 .menu-page .menu h1 {
   color: green;
   display: inline-block;
 }
-/* line 27, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_menu-body.scss */
+/* line 27, ../sass/components/_menu-body.scss */
 .menu-page .menu p {
   margin: 0;
   padding: 0;
@@ -906,7 +906,7 @@ header .head ul li :hover {
   font-size: 1.5em;
   display: inline;
 }
-/* line 34, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_menu-body.scss */
+/* line 34, ../sass/components/_menu-body.scss */
 .menu-page .menu h3 {
   color: green;
   text-decoration: underline;
@@ -917,18 +917,24 @@ header .head ul li :hover {
   margin-top: 2%;
   width: 19%;
 }
-/* line 44, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_menu-body.scss */
+@media (max-width: 320px) {
+  /* line 34, ../sass/components/_menu-body.scss */
+  .menu-page .menu h3 {
+    width: 50%;
+  }
+}
+/* line 47, ../sass/components/_menu-body.scss */
 .menu-page .menu h3:hover {
   color: black;
   cursor: pointer;
 }
-/* line 48, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_menu-body.scss */
+/* line 51, ../sass/components/_menu-body.scss */
 .menu-page .menu .galley {
   margin-bottom: 2%;
   padding-bottom: 2%;
 }
 
-/* line 2, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_apply-body.scss */
+/* line 2, ../sass/components/_apply-body.scss */
 .apply-page h1 {
   margin-top: 2%;
   margin-bottom: 1%;
@@ -936,7 +942,7 @@ header .head ul li :hover {
   margin-right: 3%;
   color: green;
 }
-/* line 9, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_apply-body.scss */
+/* line 9, ../sass/components/_apply-body.scss */
 .apply-page h1 img {
   width: 35%;
   height: auto;
@@ -946,7 +952,7 @@ header .head ul li :hover {
   float: right;
   display: inline-block;
 }
-/* line 20, C:/Users/Harry/Documents/Aptana Studio 3 Workspace/Final/dist/sass/components/_apply-body.scss */
+/* line 20, ../sass/components/_apply-body.scss */
 .apply-page p {
   margin-left: 5%;
   margin-right: 5%;
